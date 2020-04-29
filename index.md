@@ -1,8 +1,8 @@
-# The GeoStack Project
-Welcome to The GeoStack Project, a Self-study Beginner Course in Geospatial Programming for Data Scientists!
+<img align="right" width="180" style="" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project/master/Logo_TGP.jpg">
+
+Welcome to the Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox so it works on Linux, MacOS and Windows.
-<img align="right" width="180" style="" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project/master/Logo_TGP.jpg">
 
 **The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
 
