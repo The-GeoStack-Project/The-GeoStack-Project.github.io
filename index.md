@@ -1,21 +1,22 @@
 <img align="right" width="180" style="" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project/master/Logo_TGP.jpg">
-
+## Introduction
 Welcome to the Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox so it works on Linux, MacOS and Windows.
 
 **The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
 
+## Introduction video
+See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
+
 ## Reader's Guide
 1. Read this project's home page first!
-2. See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
-- **Add webblinks for the video and channel**
-3. Follow the download and work instructions below to get the course as a folder on your pc or laptop.
-4. Read the document The-GeoStack-Project-Read-Me.pdf in the main folder.
-5. Follow the advice below on checking and building your skill levels to follow this course.
-6. Do the 1-day GeoStack Workshop.
-7. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
-8. Do the full 10-day GeoStack Course.
+2. Follow the download and work instructions below to get the course as a folder on your pc or laptop.
+3. Read the document The-GeoStack-Project-Read-Me.pdf in the main folder.
+4. Follow the advice below on checking and building your skill levels to follow this course.
+5. Do the 1-day GeoStack Workshop.
+6. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
+7. Do the full 10-day GeoStack Course.
 
 ## Licensing - Software & Content
 This project is published as an Open Source Software project with Open Content for easy re-use.
