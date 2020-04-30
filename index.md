@@ -3,6 +3,7 @@
 ## Introduction
 Welcome to the Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
+- The course is aimed at programmers that follow courses in data science and geospatial programming.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox so it works on Linux, MacOS and Windows.
 
 **The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
