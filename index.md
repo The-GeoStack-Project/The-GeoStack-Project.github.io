@@ -23,7 +23,7 @@ See the introduction video 'Presenting The GeoStack Project' on the project's Yo
 ## Licensing - Software & Content
 This project is published as an Open Source Software project with Open Content for easy re-use.
 - The software is released under the [European Union Public License (EUPL)](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
-  - For more background information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence). 
+  - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence). 
 - The content is released und the [Creative Commmons Attribution License (CC-BY)](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
