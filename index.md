@@ -1,4 +1,4 @@
-<img align="right" width="180" style="" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project/master/Logo_TGP.jpg">
+<img align="right" width="180" style="" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project.github.io/master/Logo_TGP.jpg">
 
 ## Introduction
 Welcome to the Geospatial Programming Course!
