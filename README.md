@@ -22,7 +22,8 @@ See the introduction video 'Presenting The GeoStack Project' on the project's Yo
 6. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
 7. Do the full 10-day GeoStack Course.
 
-## Licensing - Software & Content
+## Legal
+### Licenses
 This project is published as an Open Source Software project with Open Content for easy re-use.
 - The software is released under the [European Union Public License (EUPL)](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
   - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence). 
@@ -31,12 +32,12 @@ This project is published as an Open Source Software project with Open Content f
 
 Datasets, Software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
-## Disclaimer - Scope Limitations
-The software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
+### Disclaimer
+Scope limitations: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
 
-Deciding on the fitness for use and using the software and content is your own responsibility.
-
-Any other application or use of the software and content other then for educational purposes is not intended and not advised!
+Disclaimer:
+1) Deciding on the fitness for use and using the software and content is your own responsibility.
+2) Any other application or use of the software and content other then for educational purposes is not intended and not advised!
 
 ## Learning Goals
 There are 3 learning goals:
@@ -65,7 +66,7 @@ In order to achieve these learning goals the activities are of course in the rev
 2. Data Storage: then you will learn to store the digital topographical maps in the relational spatial database PostgreSQL + spatial PostGIS extension and convert the GPS track log datasets from CSV and GPX files to the JSON dataformat to store the data as JSON documents in the MongoDB datastore.
 3. Programming: finally you will learn how to program in Python and TypeScript in the Atom programming editor and run the webservices and webapplications locally in your webbrowser, without the further need for an internet connection (running in 'airplane mode').
 
-## Study time estimate
+## Study time
 The course consists of a 1-day Workshop and a 10-day Course if you have some basic programming skills in Python and preferably in TypeScript or JavaScript too.
 
 
@@ -76,7 +77,7 @@ Don't worry if it takes you a little longer because you will get there with the 
 
 If you are on the other hand a real beginner in programming, you might want to invest some well spent study time first as a newbie to get to the required skill levels to follow this course as per the advice below!
 
-## Required skill levels
+## Skill levels
 **1 - Basic skills** in Python programming are a **must**!
 - Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
   - It's all Open Content and free to re-use.
@@ -93,22 +94,20 @@ If you are on the other hand a real beginner in programming, you might want to i
 - Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
 - The course manuals en example source code files will guide you to get the software up and running!
 
-## How to get started?
+## Getting started
 The best way to get started is to work through the 1-day GeoStack Workshop first.
 
 You will find out soon enough if you need to build some extra skills first.
 
-## Download instruction
+## Instructions
 1. Clone this Git repository to your local drive. This will take a while, because its over 1 Gigabyte!
 2. The main folder will be The-GeoStack-Project folder with 3 subfolders in it for the course to follow.
-
-## Work instruction
-1. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
-2. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
-3. GeoStack-Workshop subfolder
+3. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
+4. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
+5. GeoStack-Workshop subfolder
 - 1: Follow the document Creating-the-GeoStack-Workshop-VM.pdf
 - 2: Follow the document Workshop-Assignments.pdf.
-4. GeoStack-Course subfolder
+6. GeoStack-Course subfolder
 - 1: Follow the document Creating-the-GeoStack-Course-VM
 - 2: Work through the large set of detailed installation and programming manuals.
 
