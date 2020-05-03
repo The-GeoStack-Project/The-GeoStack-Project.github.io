@@ -17,7 +17,6 @@ See the introduction video 'Presenting The GeoStack Project' on the project's Yo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp
-
 ## Reader's Guide
 1. Read this project's home page first!
 2. Follow the steps in the section Instructions below to get the course on your pc or laptop.
@@ -135,9 +134,8 @@ The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebo
      
 Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
 
-## Development Environment
-
-During this course you will learn about the following subjects:
+## Environment
+The Development Environment in this course will learn you about the following subjects:
 
 1) Virtual Machine hosting: Virtualbox (Installation and Use)
 
