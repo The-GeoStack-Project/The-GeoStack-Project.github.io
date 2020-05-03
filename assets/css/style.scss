@@ -22,7 +22,7 @@ h2{
 }
 
 #banner{
-  margin-right: -456px;
+  margin-right: -486px;
 }
 
 #banner .downloads span {
@@ -84,10 +84,12 @@ nav {
 }
 
 section {
-    background: url(https://pages-themes.github.io/midnight/assets/images/nav-bg.gif) #252525;
+    //background: url(https://pages-themes.github.io/midnight/assets/images/nav-bg.gif) #252525;
     width:inherit;
     border:none;
-    box-shadow:none;
+    border-radius: 10px;
+    background-color: #444;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 
