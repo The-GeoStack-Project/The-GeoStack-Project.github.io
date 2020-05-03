@@ -7,6 +7,7 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course is aimed at programmers that follow courses in data science and geospatial programming.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
 
+
 So, go enjoy and learn things!
 
 **The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
