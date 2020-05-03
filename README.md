@@ -4,10 +4,11 @@
 Welcome to the Open Source Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course uses 100% Open Source Software, Open Standards and Open Content.
-- The course is aimed at programmers that follow courses in data science and geospatial programming.
+- The course is aimed at students at bachelor and master levels that follow courses in data science and geospatial programming and programming enthousiasts alike.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
 - In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with OpenLayers and a 3D Map Viewer with Cesium.
+- The datasets used in the course are GPS track logs that are publicly available for download. Two kinds of file formats are used: CSV files with track logs from GPS trackers on the legs of ringed common crane birds (Grus grus) from the animal tracking website [Movebank.org](https://www.movebank.org) and GPX files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
 
 So, go enjoy and learn things!
 
@@ -30,7 +31,7 @@ Tip: you might consider downloading the videos for offline use.
 7. Finally experiment with loading your own datasets and extra digital topographical maps from OpenStreetMap and of course by modifying and extending the webapplications to learn how to build your own dataset visualizations.
 
 ## Learning Goals
-The learning goals of this course are to create and run a free and light-weight Open Source Geospatial Software Stack (GeoStack) in a Virtual Machine (VM) on a stand-alone pc and to program webapplications to visualize geospatial datasets on locally hosted topographical digital maps from OpenStreetMap and OpenSeaMap.
+The learning goals of this course are to create and run a free and light-weight Open Source Geospatial Software Stack, the GeoStack in short, in a Virtual Machine (VM) with Ubuntu Linux on a stand-alone pc or laptop and to program webapplications to visualize geospatial datasets on locally hosted topographical digital maps from OpenStreetMap and OpenSeaMap.
 
 So this course is about downloading some manuals, software and data sets from the internet, adjust it so it can run on the pc in 'airplaine mode' without an internet connection and then learn how to install and configure the GeoStack and program Geospatial Webapplications by using 100% Open Source Software, Open Standards and Open Content!
 
@@ -53,7 +54,7 @@ There are 3 learning goals:
 **The starting goal** is to learn about the approximately 50 software components required in the Client / Server software architecture you will need to download, install, configure, program and run to be able to use the end-user webapplications in your webbrowser.
 - You will learn about virtualisation to run the course software and data on Ubuntu Linux in a Virtual Machine (VM) isolated from your host operating system. In the full course you will also learn how to isolate software components in the VM by using Docker Containers and Volumes.
 - So yes, the GeoStack Installation and Webapplication Programming is done on Linux as the guest operating system in the VM. A great opportunity for Linux newbies to get to know Linux step by step in practical way.
-- Learn along the way about the architecture and how virtualisation helps to update components independently and in sharing your VMs, containers and volumes with other data scientists and software developers. 
+- Learn along the way about the architecture and how virtualization helps to update components independently and in sharing your VMs, containers and volumes with other data scientists and software developers. 
 
 ## Workflow
 In order to achieve these learning goals the activities are of course in the reverse order of the learning goals:
@@ -212,7 +213,7 @@ The Development Environment in this course will learn you about the following su
 
 ## Getting started
 **Download instructions**
-1. Go to the top of the webpage and click the blue button 'DOWNLOAD MANUALS'.
+1. Go to the top of the webpage and click the blue button 'Download Manuals'.
 2. Save the ZIP file that contains the repository GeoStack-Manuals.
 3. Unzip the ZIP file which will give you the folder GeoStack-Manuals.
 4. In the folder you will find 2 PDF files: Creating-the-Workshop-VM.pdf and Creating-the-Course-VM.pdf.
@@ -233,11 +234,10 @@ Advice: first build the Course VM the easy way with the installation scripts to 
 Note: in the manuals on how to create the VM's you will find detailed instructions about:
 1. cloning the git repositories GeoStack-Workshop and GeoStack-Course;
 2. the download instructions for the GPS track log datasets;
-3. the instructions to export, download and import the map datasets required for visualizing digital topographical maps in OpenLayers and Cesium. 
+3. the instructions to export, download and import the map and terrain elevation datasets required for visualizing digital topographical maps in OpenLayers and Cesium.
 
 ## Programming tips
-**Lowering the Programming Learning Curve**
-
+**Lowering the Learning Curve**
 1) First of all: read the manuals, cookbooks etc. There is a lot of documentation to explain what, why and how things work. Don't be smart, read it first! It will be time well spent! There is no 'black magic' left, once explained!
 
 2) Second: study the installation scripts and example scripts!
@@ -274,7 +274,7 @@ The internship was offered by the ICT innovation department of the Dutch Ministr
 
 The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
 
-**-----> 'Working Software at the End of the Day!' <-----**
+<div align="center">**-----> 'Working Software at the End of the Day!' <-----**</div>
 
 ## Scope limitations
 1) Educational goal: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
@@ -307,3 +307,18 @@ THE PROVIDER makes no representations or warranties of any kind concerning the s
 There are inherent dangers in the use of any software, documentation, and datasets and you are solely responsible for determining whether THIS PRODUCT is compatible with your equipment and other software and data installed on your equipment. 
             
 You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing THIS PRODUCT.
+
+## Project Participation
+**Resources**
+GitHub: click the blue buttons at the top of this webpage to check the Issue Tracker or the Wiki pages.
+YouTube: go to the project's YouTube Channel to see the overview videos and video tutorial clips.
+
+**Participation**
+GitHub: use the Issue Tracker if you have a question for the project team, to report a bug or make a project enhancement proposal. Please use the proper labels to tag your issue accordingly!
+
+**Project support**
+The intention is to see if volunteers are willing to participate in project maintenance and creating new course materials.
+Currently the project has not yet a way to welcome volunteers but the information for that will be published here.
+
+New team members are needed because with around 50 software and content components that will update over time the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
+ 
