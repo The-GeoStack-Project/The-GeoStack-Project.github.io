@@ -25,7 +25,7 @@ h2{
   margin-right: -486px;
 }
 
-#banner logo{
+#banner #logo{
   right: 0px;
 }
 
@@ -114,6 +114,6 @@ header {
     border:none;
 }
 
-@media only screen and (max-width: 1060px) {
+@media print, screen and (max-width: 1060px) {
   width:97%;
 }
