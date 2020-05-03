@@ -17,6 +17,7 @@ So, go enjoy and learn things!
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Tip: you might consider downloading the videos for offline use.
 <br/>
 
 ## Reader's Guide
@@ -210,22 +211,29 @@ The Development Environment in this course will learn you about the following su
   - an 3D Map Viewer using the Geospatial Framework Cesium in which you can visualize the datasets in 3D.
 
 ## Getting started
-**Download instruction**
+**Download instructions**
 1. Go to the top of the webpage and click the blue button 'DOWNLOAD MANUALS'.
 2. Save the ZIP file that contains the repository GeoStack-Manuals.
 3. Unzip the ZIP file which will give you the folder GeoStack-Manuals.
 4. In the folder you will find 2 PDF files: Creating-the-Workshop-VM.pdf and Creating-the-Course-VM.pdf.
 
-**Work instruction**
+**Work instructions**
 1. Start with the 1-day GeoStack Workshop by following the document Creating-the-GeoStack-Workshop-VM.pdf.
 - Here you will learn if you need to build some extra skills first.
+- After building the VM start the file manager Nautilus by clicking the file cabinet icon on the left in the Favorites menu.
+- Then in the Home folder of the GeoStack account on the VM, go to the folder GeoStack-Workshop.
+- Follow the programming assignments in the file Cookbook-Workshop-Assignments.pdf.
 2. Work through the full 10-day GeoStack Course by following the document Creating-the-GeoStack-Course-VM.pdf.
-- There are two ways of building the Course VM
-  1. Automatic installation by using the supplied set of installation scripts.
-  2. Manual installation by working through the large set of 8 detailed course cookbooks and manuals.
-- Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the webapplications!
+- There are two ways of building the Course VM:
+  - 1 - Automatic installation by using the supplied set of installation scripts.
+  - 2 - Manual installation by working through the large set of 8 detailed course cookbooks and manuals.
 
-Tip: you might consider downloading the videos from the YouTube channel for offline use.
+Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the webapplications!
+
+Note: in the manuals on how to create the VM's you will find detailed instructions about:
+1. cloning the git repositories GeoStack-Workshop and GeoStack-Course;
+2. the download instructions for the GPS track log datasets;
+3. the instructions to export, download and import the map datasets required for visualizing digital topographical maps in OpenLayers and Cesium. 
 
 ## Programming tips
 **Lowering the Programming Learning Curve**
@@ -236,12 +244,12 @@ Tip: you might consider downloading the videos from the YouTube channel for offl
 - For programming with Python scripts and Jupyter Notebooks, TypeScript/JavaScript scripts and bash shell scripts, these scripts and notebooks are used in the simplest way possible and all source code and parameters used are explained in the documentation and in in-line source code comments.
 - There are also many installation-, import-, export- and conversion scripts to work fast and install and run without errors but also to help in learning how things actually work!
 
-3) Third: Remember in programming 'a point is not a comma'!
+3) Third: remember in programming 'a point is not a comma'!
 Typos are made easy but finding them to correct can be really hard!
 So first read carefully until you understand and only then grab your keyboard!
 When coding: type slow and read your code back!
 
-4) Make copies of files before you change them!!!
+4) Finally: make copies of files before you change them!!!
 - If you want to experiment with building the VMs for the Workshop or the Course
 then make a copy of the configuration files and the installation scripts and 
 document your changes with in-line comments to keep track of what you did!
@@ -253,7 +261,7 @@ undocumented changes or you might end up with a broken VM.
 - The same goes for changes you want to make to code in Jupyter Notebooks or in
 the webapplications.
 
-Make it a habit to use a file copy and you'll be safe and save a lot of time!
+Make it a habit to use a file copy and you'll be safe and save yourself a lot of time!
 
 ## Project origins
 This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam).
