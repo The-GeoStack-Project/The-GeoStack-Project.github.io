@@ -7,14 +7,15 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course is aimed at programmers that follow courses in data science and geospatial programming.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
 
+**So, go enjoy and learn things!**
 
-So, go enjoy and learn things!
 
-**The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
+**The repositories with software and content will be published here somewhere between May 15 and June 1, 2020.**
 
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Reader's Guide
