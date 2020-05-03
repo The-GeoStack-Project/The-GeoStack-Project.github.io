@@ -5,8 +5,6 @@
 
 header h1 {
     font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #f3f3f3;
-    text-shadow: 0px 2px 0px #235796;
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
@@ -14,6 +12,8 @@ header h1 {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
     font-size: 40px;
+    color: #f0e7d5;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
 h2{
