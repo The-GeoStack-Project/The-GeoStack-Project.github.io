@@ -3,18 +3,106 @@
 
 @import "{{ site.theme }}";
 
-section img{border-radius: 50%;}
-
-.wrapper {
-    max-width: 950px;
-    margin: 0 auto;
-    position: relative;
-    padding: 0 20px;
+header h1 {
+    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f3f3f3;
+    text-shadow: 0px 2px 0px #235796;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    font-size: 40px;
 }
 
-section {
-    max-width: 950px;
-    padding: 30px 0px 50px 0px;
-    margin: 20px 0;
-    margin-top: 50px;
+h2{
+    color:white;
+    
+}
+
+#banner .downloads span {
+    float: left;
+    line-height: 52px;
+    font-size: 90%;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: rgba(255,255,255,0.2) 0 1px 0;
+}
+
+#banner ul li a.button {
+    background-color: #1761a0;
+    color: white;
+}
+
+#banner .fork {
+    position: fixed;
+    left: 50%;
+    margin-left: -325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #1761a0;
+}
+
+#banner .button {
+    border:none;
+}
+
+
+ul {
+    list-style-image: url("https://the-geostack-project.github.io/assets/images/bullet.png");
+}
+
+strong {
+    font-weight: bold;
+    color: beige;
+}
+
+nav ul a {
+    color: beige;
+}
+
+a {
+    color: #ffcc00;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav {
+    width: 230px;
+    position: fixed;
+    top: 240px;
+    left: 41%;
+    margin-left: -580px;
+    text-align: right;
+}
+
+.wrapper{
+
+    width:950px;
+}
+
+section { 
+    background: url(https://pages-themes.github.io/midnight/assets/images/nav-bg.gif) #252525; 
+    width:950px;
+    border:none;
+    box-shadow:none;
+}
+
+
+body{ background: url(https://pages-themes.github.io/midnight/assets/images/nav-bg.gif) #252525; 
+    font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f0e7d5;
+    font-weight: normal;
+}
+
+header {
+    background: url(https://pages-themes.github.io/midnight/assets/images/nav-bg.gif) #252525; 
+}
+
+#banner{
+    background: #252525;
+    border:none;
 }
