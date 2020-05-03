@@ -274,7 +274,7 @@ The internship was offered by the ICT innovation department of the Dutch Ministr
 
 The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
 
-<div align="center">**-----> 'Working Software at the End of the Day!' <-----**</div>
+<div align="center"><b>-----> 'Working Software at the End of the Day!' <-----</b></div>
 
 ## Scope limitations
 1) Educational goal: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
@@ -310,15 +310,21 @@ You are also solely responsible for the protection of your equipment and backup 
 
 ## Project Participation
 **Resources**
+
 GitHub: click the blue buttons at the top of this webpage to check the Issue Tracker or the Wiki pages.
+
 YouTube: go to the project's YouTube Channel to see the overview videos and video tutorial clips.
 
 **Participation**
+
 GitHub: use the Issue Tracker if you have a question for the project team, to report a bug or make a project enhancement proposal. Please use the proper labels to tag your issue accordingly!
 
 **Project support**
+
 The intention is to see if volunteers are willing to participate in project maintenance and creating new course materials.
+
 Currently the project has not yet a way to welcome volunteers but the information for that will be published here.
+
 
 New team members are needed because with around 50 software and content components that will update over time the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
  
