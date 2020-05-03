@@ -6,6 +6,8 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course uses 100% Open Source Software, Open Standards and Open Content.
 - The course is aimed at programmers that follow courses in data science and geospatial programming.
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
+- In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
+- In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with OpenLayers and a 3D Map Viewer with Cesium.
 
 So, go enjoy and learn things!
 
@@ -15,16 +17,16 @@ So, go enjoy and learn things!
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
 
-&nbsp
 ## Reader's Guide
 1. Read this project's home page first!
-2. Follow the steps in the section Instructions below to get the course on your pc or laptop.
-3. Follow the advice in the section Skill Levels below to check and get the required skill levels for this course.
-5. Do the 1-day GeoStack Workshop.
-6. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
-7. Do the full 10-day GeoStack Course.
-
+2. Follow the advice in the section 'Skill Levels' below to check and get the required skill levels for this course.
+3. Follow the steps in the section 'Getting Started' below to get the course on your pc or laptop.
+4. Do the 1-day GeoStack Workshop to explore the world of Open Source Geospatial Programming by building the Workshop Virtual Machine using the installation scripts and then by working through the programming assignments to build the simplified 2D Map Viewer webapplication.
+5. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
+6. Do the full 10-day GeoStack Course by first building the Course VM the easy way with installation scripts to explore and then building the Course VM the manual way and get the 3 webapplications up and running.
+7. Finally experiment with loading your own datasets and extra digital topographical maps from OpenStreetMap and of course by modifying and extending the webapplications to learn how to build your own dataset visualizations.
 
 ## Learning Goals
 The learning goals of this course are to create and run a free and light-weight Open Source Geospatial Software Stack (GeoStack) in a Virtual Machine (VM) on a stand-alone pc and to program webapplications to visualize geospatial datasets on locally hosted topographical digital maps from OpenStreetMap and OpenSeaMap.
@@ -60,30 +62,27 @@ In order to achieve these learning goals the activities are of course in the rev
 
 ## Study time
 The course consists of a 1-day Workshop and a 10-day Course if you have some basic programming skills in Python and preferably in TypeScript or JavaScript too.
+- Depending on your level of expertise you may need to double or triple these time estimates, so your mileage may vary!
 
 
-Depending on your level of expertise you may need to double or triple these time estimates, so your mileage may vary!
-
-
-Don't worry if it takes you a little longer because you will get there with the user friendly installation and programming manuals with lot's of screenshots and the source code files in Jupyter Notebooks and Python and TypeScript example scripts with lot's of inline comments!
+Don't worry if it takes you a little longer because you will get there with the user friendly installation and programming manuals with lot's of screenshots and the source code files in Jupyter Notebooks and example scripts in Python and TypeScript with lot's of inline comments!
 
 
 If you are on the other hand a real beginner in programming, you might want to invest some extra well spent study time first as a newbie to get to the required skill levels to follow this course as per the advice below in the section 'Skill levels'!
 
 ## Skill levels
-**1 - Basic skills** in Python programming are a **must**!
+1 - **Basic skills** in Python programming are a **must**!
 - Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
-  - It's all Open Content and free to re-use and also aimed at datascientists with it's focus on data processing!
-- Weblinks
+  - It's all Open Content and free to re-use and... also aimed at datascientists with it's focus on data processing!
   - Website Python for Everybody            : [https://www.py4e.com/](https://www.py4e.com/)
   - Free e-book 'Exploring Data in Python 3': [https://www.py4e.com/book](https://www.py4e.com/book)
 
 
-**2 - Basic knowledge** in TypeScript / JavaScript + Angular is an advantage
+2 - **Basic knowledge** in TypeScript / JavaScript + Angular is an advantage
 - Advice: take 5 days to study some beginner tutorials to get a feel for the source code examples used in this course.
 
 
-**3 - Some knowledge** of Virtual Box, Ubuntu Linux, MongoDB, Docker, OpenLayers and Cesium comes in handy of course!
+3 - **Some knowledge** of Virtual Box, Ubuntu Linux, MongoDB, Docker, OpenLayers and Cesium comes in handy of course!
 - Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
 - The course manuals en example source code files will guide you to get the software up and running!
 
@@ -91,10 +90,8 @@ If you are on the other hand a real beginner in programming, you might want to i
 
 **Course structure**
 To get fast situational awareness there is a 1-day GeoStack Workshop to build the Workshop VM with installation scripts which is documented in both a manual and in a series of presentation files to carefully read to get step-by-step to a working GeoStack and basic end-user webapplication.
-
-The 1-day Workshop focusses on building a Client / Server infrastructure in a VM to get familiar with the server side software architecture of the entire software stack.
-
-To learn all the details after the workshop there is the 10-day GeoStack Course which will take you through all the details to build the Course VM with the full GeoStack and the fully functional end-user webapplications.
+- The 1-day Workshop focusses on building a Client / Server infrastructure in a VM to get familiar with the server side software architecture of the entire software stack.
+- To learn all the details after the workshop there is the 10-day GeoStack Course which will take you through all the details to build the Course VM with the full GeoStack and the fully functional end-user webapplications.
 
 **About the 1-day GeoStack Workshop**
 To learn most of the components of the Development Environment, which is described below, to install the required server software for the GeoStack and to program a webapplication this workshop will take you through the whole process to get
@@ -118,19 +115,19 @@ You will also learn to use Docker containers to run applications and Docker Volu
 For topographical sea maps you will learn how to add OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS.
 
 As examples you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets: 
-  1) a Data Dashboard with information on the datasets stored in MongoDB;
-  2) a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
-  3) a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
+1. a Data Dashboard with information on the datasets stored in MongoDB;
+2. a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
+3. a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
      
 The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebooks and Programming manuals which are the following documents:
-   1) Cookbook-ETL-Process-With-Datasets 
-   2) Cookbook-Data-Modeling-in-MongoDB
-   3) Cookbook-A-Secure-Nginx-Webserver-With-ModSecurity
-   4) Manual-Creating-the-Python-Flask-API-Middleware
-   5) Manual-Creating-a-Base-application-using-AngularJS
-   6) Manual-Creating-a-Dataset-Dashboard
-   7) Manual-Creating-an-2-Dimensional-Map-Viewer
-   8) Manual-Creating-an-3-Dimensional-Map-Viewer
+1. Cookbook-ETL-Process-With-Datasets 
+2. Cookbook-Data-Modeling-in-MongoDB
+3. Cookbook-A-Secure-Nginx-Webserver-With-ModSecurity
+4. Manual-Creating-the-Python-Flask-API-Middleware
+5. Manual-Creating-a-Base-application-using-AngularJS
+6. Manual-Creating-a-Dataset-Dashboard
+7. Manual-Creating-an-2-Dimensional-Map-Viewer
+8. Manual-Creating-an-3-Dimensional-Map-Viewer
      
 Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
 
@@ -207,27 +204,26 @@ The Development Environment in this course will learn you about the following su
     - It's just a basic installation guide and adding your own security rules is not explained!
     - YOU HAVE BEEN WARNED!!!
 
-15) Creating 3 end-user webapplications using the JavaScript Framework AngularJS in combination with TypeScript:
+15) Creating 3 end-user webapplications using the JavaScript Framework Angular in combination with TypeScript:
   - a Dataset Dashboard for generating data profiles, using Pandas Profiling and visualizing the datasets using interactive graphs created with the JavaScript library ChartJS;
   - an 2D Map Viewer using the Geospatial Framework OpenLayers in which you can select multiple routes, animate routes, change layer styles and much more;
   - an 3D Map Viewer using the Geospatial Framework Cesium in which you can visualize the datasets in 3D.
 
 ## Getting started
-The best way to get started is to work through the 1-day GeoStack Workshop first.
+**Download instruction**
+1. Go to the top of the webpage and click the blue button 'DOWNLOAD MANUALS'.
+2. Save the ZIP file that contains the repository GeoStack-Manuals.
+3. Unzip the ZIP file which will give you the folder GeoStack-Manuals.
+4. In the folder you will find 2 PDF files: Creating-the-Workshop-VM.pdf and Creating-the-Course-VM.pdf.
 
-You will find out soon enough if you need to build some extra skills first.
-
-## Instructions
-1. Clone this Git repository to your local drive. This will take a while, because its over 1 Gigabyte!
-2. The main folder will be The-GeoStack-Project folder with 3 subfolders in it for the course to follow.
-3. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
-4. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
-5. GeoStack-Workshop subfolder
-- 1: Follow the document Creating-the-GeoStack-Workshop-VM.pdf
-- 2: Follow the document Workshop-Assignments.pdf.
-6. GeoStack-Course subfolder
-- 1: Follow the document Creating-the-GeoStack-Course-VM
-- 2: Work through the large set of detailed installation and programming manuals.
+**Work instruction**
+1. Start with the 1-day GeoStack Workshop by following the document Creating-the-GeoStack-Workshop-VM.pdf.
+- Here you will learn if you need to build some extra skills first.
+2. Work through the full 10-day GeoStack Course by following the document Creating-the-GeoStack-Course-VM.pdf.
+- There are two ways of building the Course VM
+  1. Automatic installation by using the supplied set of installation scripts.
+  2. Manual installation by working through the large set of 8 detailed course cookbooks and manuals.
+- Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the webapplications!
 
 Tip: you might consider downloading the videos from the YouTube channel for offline use.
 
