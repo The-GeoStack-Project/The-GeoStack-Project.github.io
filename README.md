@@ -15,7 +15,6 @@ So, go enjoy and learn things!
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br/>
 
 ## Reader's Guide
