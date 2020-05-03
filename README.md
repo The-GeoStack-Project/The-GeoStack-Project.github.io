@@ -274,6 +274,7 @@ The internship was offered by the ICT innovation department of the Dutch Ministr
 
 The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
 <div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
+<br/>
 
 ## Scope limitations
 1) Educational goal: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
