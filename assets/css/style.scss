@@ -25,6 +25,10 @@ h2{
   margin-right: -486px;
 }
 
+#banner logo{
+  right: 0px;
+}
+
 #banner .downloads span {
     float: left;
     line-height: 52px;
@@ -108,4 +112,8 @@ header {
 #banner{
     background: #252525;
     border:none;
+}
+
+@media only screen and (max-width: 1060px) {
+  width:97%;
 }
