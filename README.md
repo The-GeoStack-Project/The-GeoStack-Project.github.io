@@ -1,4 +1,4 @@
-<img align="right" width="180" style="border-radius: 50%;" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project.github.io/master/Logo_TGP.jpg">
+<img align="right" width="160" style="border-radius: 50%;" alt="Logo - The GeoStack Project" src="https://raw.githubusercontent.com/The-GeoStack-Project/The-GeoStack-Project.github.io/master/Logo_TGP.jpg">
 
 ## Introduction
 Welcome to the Open Source Geospatial Programming Course!
@@ -46,15 +46,15 @@ There are 3 learning goals:
 3. a **3D Map Viewer** with Cesium to visualize the datasets on 3D maps with Digital Elevation Models (DEM height files)
 
 **The intermediate goal** is to learn how to build three webservices with an API for the webapplications to use.
-- Two webservices are required to get access to the 2D and 3D digital topographical maps through the API's of their respective map tile servers as the geospatial web map servers (WMS). 
-- The third webservice is provided by programming a microwebservice application with the Python Flask framework to get access to the datasets in the MongoDB datastore. 
+- Two webservices are required to get access to the 2D and 3D digital topographical maps through the API's of their respective map tile servers as the geospatial web map servers (WMS).
+- The third webservice is provided by programming a microwebservice application with the Python Flask framework to get access to the datasets in the MongoDB datastore.
   - It is in this Python web application where the magic happens to program the 'payload' or 'business logic' for data selection and processing that needs to match the functionality in the TypeScript webapplication to visualize the required geospatial data.
   - Isolating the data processing in a (Flask) webapplication behind a webservice API from the Flask application uncouples the data processing from the visualization in the webapplications, making it easy to replace or update either application seperately.
 
 **The starting goal** is to learn about the approximately 50 software components required in the Client / Server software architecture you will need to download, install, configure, program and run to be able to use the end-user webapplications in your webbrowser.
 - You will learn about virtualisation to run the course software and data on Ubuntu Linux in a Virtual Machine (VM) isolated from your host operating system. In the full course you will also learn how to isolate software components in the VM by using Docker Containers and Volumes.
 - So yes, the GeoStack Installation and Webapplication Programming is done on Linux as the guest operating system in the VM. A great opportunity for Linux newbies to get to know Linux step by step in practical way.
-- Learn along the way about the architecture and how virtualization helps to update components independently and in sharing your VMs, containers and volumes with other data scientists and software developers. 
+- Learn along the way about the architecture and how virtualization helps to update components independently and in sharing your VMs, containers and volumes with other data scientists and software developers.
 
 ## Workflow
 In order to achieve these learning goals the activities are of course in the reverse order of the learning goals:
@@ -116,13 +116,13 @@ This will take a serious time investment of 10 - 20 or even 30 days of study tim
 You will also learn to use Docker containers to run applications and Docker Volumes to host data.
 For topographical sea maps you will learn how to add OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS.
 
-As examples you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets: 
+As examples you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets:
 1. a Data Dashboard with information on the datasets stored in MongoDB;
 2. a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
 3. a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
-     
+
 The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebooks and Programming manuals which are the following documents:
-1. Cookbook-ETL-Process-With-Datasets 
+1. Cookbook-ETL-Process-With-Datasets
 2. Cookbook-Data-Modeling-in-MongoDB
 3. Cookbook-A-Secure-Nginx-Webserver-With-ModSecurity
 4. Manual-Creating-the-Python-Flask-API-Middleware
@@ -130,7 +130,7 @@ The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebo
 6. Manual-Creating-a-Dataset-Dashboard
 7. Manual-Creating-an-2-Dimensional-Map-Viewer
 8. Manual-Creating-an-3-Dimensional-Map-Viewer
-     
+
 Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
 
 ## Environment
@@ -143,7 +143,7 @@ The Development Environment in this course will learn you about the following su
 3) The programming languages used are Python and TypeScript/JavaScript.
   - Installation scripts are programmed as bash shell scripts.
   - Finally there is a small script written in Java used to create the links for the topographical map tiles between the nautical objects on them from OpenSeaMap and the nautical map icons to generate the map tiles for all the map zoom levels to store in the cache folders of the tile server.
-  
+
 4) Declarative languages: SQL for relational databases and for webpages of the the end-user webapplications HTML5 and CSS3 are used.
 
 5) Compartmentalize the GeoStack components using Docker:
@@ -157,15 +157,15 @@ The Development Environment in this course will learn you about the following su
    - loading the datasets in the datastores (PostgreSQL and MongoDB).
 
 7) Working with different datasets:
-   - analyzing datasets using the Python programming language with Jupyter Notebook, 
+   - analyzing datasets using the Python programming language with Jupyter Notebook,
      Pandas, GeoPandas and much more;
-     
+
 8) Working with different file formats to store geospatial data:
    - JSON / GeoJSON (JavaScript Object Notation/ Geographical JavaScript Object Notation)
    - CSV (Comma-Separated Values in Unicode UTF-8 text format)
    - GPX (Geographical version of XML used to store location points of track loggings)
    - SHP (ShapeFiles; a proprietary but public standard from ESRI for a distribution file format for geospatial datasets)
-     
+
 9) Explore and Transform datasets
    - creating simple data visualizations in Python using Cartopy and MatPlotLib for the exploration of datasets;
    - transforming the geospatial data formats to JSON and GeoJSON for storage in datastores.
@@ -201,7 +201,7 @@ The Development Environment in this course will learn you about the following su
 
 14) Creating a Secured NGINX webserver with ModSecurity and the basic OWASP ruleset.
   - This is provided to learn how to install the mod_security module and the OWASP security ruleset to secure all the Geostack components running behind the NGINX webserver by letting the mod_security module run the security checks.
-  - SECURITY WARNING: do NOT run this configuration for production or other purposes when connected to the internet or any other untrusted network because this course shows just an educational setup with the basic OWASP ruleset! 
+  - SECURITY WARNING: do NOT run this configuration for production or other purposes when connected to the internet or any other untrusted network because this course shows just an educational setup with the basic OWASP ruleset!
     - It has not been checked if the configuration or ruleset is fit-for-use!!!
     - It's just a basic installation guide and adding your own security rules is not explained!
     - YOU HAVE BEEN WARNED!!!
@@ -251,7 +251,7 @@ When coding: type slow and read your code back!
 
 4) Finally: make copies of files before you change them!!!
 - If you want to experiment with building the VMs for the Workshop or the Course
-then make a copy of the configuration files and the installation scripts and 
+then make a copy of the configuration files and the installation scripts and
 document your changes with in-line comments to keep track of what you did!
 - Save new file versions in your Programming Editor before running them!
 Keep the original files alongside to look at as the working examples!
@@ -291,7 +291,7 @@ develop and run webapplications for visualization of geospatial datasets. There 
 ## Licenses
 This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use.
 - The software is released under the [European Union Public License (EUPL)](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
-  - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence). 
+  - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
 - The content is released und the [Creative Commmons Attribution License (CC-BY)](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
@@ -304,8 +304,8 @@ Datasets, Software and online services used in this course from third parties ar
 
 THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of THIS PRODUCT.
 
-There are inherent dangers in the use of any software, documentation, and datasets and you are solely responsible for determining whether THIS PRODUCT is compatible with your equipment and other software and data installed on your equipment. 
-            
+There are inherent dangers in the use of any software, documentation, and datasets and you are solely responsible for determining whether THIS PRODUCT is compatible with your equipment and other software and data installed on your equipment.
+
 You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing THIS PRODUCT.
 
 ## Project Participation
@@ -327,4 +327,3 @@ Currently the project has not yet a way to welcome volunteers but the informatio
 
 
 New team members are needed because with around 50 software and content components that will update over time the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
- 
