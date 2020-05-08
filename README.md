@@ -326,4 +326,4 @@ The intention is to see if volunteers are willing to participate in project main
 Currently the project has not yet a way to welcome volunteers but the information for that will be published here.
 
 
-New team members are needed because with around 50 software and content components that will update over time the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
+New team members are needed because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
