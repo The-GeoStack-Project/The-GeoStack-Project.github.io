@@ -329,36 +329,5 @@ Currently the project has not yet a way to welcome volunteers but the informatio
 New team members are needed because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
 
 
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
 
-<!--
-## Project Issues
-<div id="issues"></div>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-<script> 
-var issues = "https://api.github.com/repos/The-GeoStack-Project/The-GeoStack-Project.github.io/issues";
-
-$(document).ready(function () {
-    $.getJSON(issues, function (allIssues) {
-        $("#issues").append("found " + allIssues.length + " issues</br>");
-        $.each(allIssues, function (i, issue) {
-            $("#issues")
-                .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
-                .append("created at: " + issue.created_at + "</br>")
-                .append("<a href='https://github.com/pieterlems'>created by: " + issue.user.login + "</a></br>")
-                .append(issue.body + "</br></br></br>");
-        });
-    });
-});
-</script>
- -->
