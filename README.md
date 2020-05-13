@@ -330,15 +330,17 @@ New team members are needed because, with around 50 software and content compone
 
 
 ## Project Issues
+<div id="issues"></div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-var urlToGetAllOpenBugs = "https://api.github.com/repos/The-GeoStack-Project/The-GeoStack-Project.github.io/issues";
+
+<script> 
+var issues = "https://api.github.com/repos/The-GeoStack-Project/The-GeoStack-Project.github.io/issues";
 
 $(document).ready(function () {
-    $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
-        $("div").append("found " + allIssues.length + " issues</br>");
+    $.getJSON(issues, function (allIssues) {
+        $("#issues").append("found " + allIssues.length + " issues</br>");
         $.each(allIssues, function (i, issue) {
-            $("div")
+            $("#issues")
                 .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
                 .append("created at: " + issue.created_at + "</br>")
                 .append(issue.body + "</br></br></br>");
@@ -347,4 +349,3 @@ $(document).ready(function () {
 });
 </script>
  
-<div></div>
