@@ -343,6 +343,7 @@ $(document).ready(function () {
             $("#issues")
                 .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
                 .append("created at: " + issue.created_at + "</br>")
+                .append("<a href="https://github.com/issue.user.login">created by: " + issue.user.login + "</a></br>")
                 .append(issue.body + "</br></br></br>");
         });
     });
