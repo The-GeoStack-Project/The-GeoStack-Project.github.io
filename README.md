@@ -331,6 +331,20 @@ New team members are needed because, with around 50 software and content compone
 
 ## Project Issues
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="/js/api.js"></script>
+<script>
+var urlToGetAllOpenBugs = "https://api.github.com/repos/The-GeoStack-Project/The-GeoStack-Project.github.io/issues";
+
+$(document).ready(function () {
+    $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
+        $("div").append("found " + allIssues.length + " issues</br>");
+        $.each(allIssues, function (i, issue) {
+            $("div")
+                .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
+                .append("created at: " + issue.created_at + "</br>")
+                .append(issue.body + "</br></br></br>");
+        });
+    });
+});
+</script>
  
 <div></div>
