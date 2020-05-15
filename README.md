@@ -266,7 +266,7 @@ Make it a habit to use a file copy and you'll be safe and save yourself a lot of
 ## Project origins
 This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam).
 
-  - Read the interview in Dutch about Pieter's internship project [here](https://www.ubrijk.nl/service/rijks-i-stage/nieuws/2020/04/24/i-stage-bij-defensie-van-versplinterde-informatie-tot-bruikbare-kennis-voor-militaire-missies).
+  - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
 
   - The course is the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
 
