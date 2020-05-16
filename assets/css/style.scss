@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+*:focus {
+    outline-width: 0px !important;
+}
+
 header h1 {
     font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
