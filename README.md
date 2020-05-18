@@ -12,7 +12,7 @@ Welcome to the Open Source Geospatial Programming Course!
 
 So, go enjoy and learn things!
 
-The repositories with software and content will be published here somewhere between May 25 and June 1, 2020.
+**The repositories with software and content will be published here somewhere between May 25 and June 1, 2020.**
 
 
 ## Introduction video
