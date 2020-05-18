@@ -8,7 +8,7 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
 - In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with OpenLayers and a 3D Map Viewer with Cesium.
-- The datasets used for the digital topographical maps are from [OpenStreetmap.org](https://OpenStreetMap.org) and for 3D maps Digital Elevation Map (DEM) files are used that are publicly available as Open Content. To learn how to program with web map servers, also some online web map services are used.
+- The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps Digital Elevation Map (DEM) files are used that are publicly available as Open Content. To learn how to program with web map servers, also some online web map services are used.
 - The datasets used in the course are GPS track logs that are publicly available as Open Content. Two kinds of file formats are used: CSV files with track logs from GPS trackers on the legs of ringed common cranes (Grus grus) from the animal tracking website [Movebank.org](https://www.movebank.org) and GPX files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
 
 So, go enjoy and learn things!
