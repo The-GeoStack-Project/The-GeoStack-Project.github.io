@@ -12,10 +12,7 @@ Welcome to the Open Source Geospatial Programming Course!
 
 So, go enjoy and learn things!
 
-
-**The repositories with software and content will be published here somewhere between May 15 and June 1, 2020.**
-
-## Introduction video (Comming Soon!)
+## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PStRYIZgC8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Tip: you might consider downloading the videos for offline use.
