@@ -281,7 +281,7 @@ The reason to create this course is to collect and combine all the very much fra
 ## Scope limitations
 1) Educational goal: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
 
-2) Product selection: this course focuses on creating an Open Source geospatial software stack, the GeoStack, to
+2) Software selection: this course focuses on creating an Open Source geospatial software stack, the GeoStack, to
 develop and run webapplications for visualization of geospatial datasets. There are more Open Source Software products that can provide the same functionality as the products chosen in this course.
 
 3) Complexity reduction: some well known software products are left out of scope in order not to complicate things more than necessary for an already fairly complex beginner course, like:
@@ -326,7 +326,8 @@ GitHub: use the Issue Tracker if you have a question for the project team, to re
 
 **Project support**
 
-The intention is to see if volunteers are willing to participate in project maintenance and creating new course materials.
+The project is currently published as-is and if volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
+
 
 Currently the project has not yet a way to welcome volunteers but the information for that will be published here.
 
