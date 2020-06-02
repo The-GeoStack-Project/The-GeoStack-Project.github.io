@@ -19,7 +19,7 @@ So, go enjoy and learn things!
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ocObtLqYRwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Tip: you might consider downloading the videos for offline use.
+Tip: visit our YouTube channel for the additional tutorial videos and use the playlists to view them.
 <br/>
 
 ## Reader's Guide
@@ -299,7 +299,7 @@ develop and run webapplications for visualization of geospatial datasets. There 
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
   - Please refer for attribution to this project as: The GeoStack Project
 
-Datasets, Software and online services used in this course from third parties are (re-)used under their own respective licenses.
+Any and all datasets, software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
 ## Disclaimer
 1) Deciding on the fitness for use and using the software and content of this course is your own responsibility.
