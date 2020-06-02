@@ -117,7 +117,7 @@ This will take a serious time investment of 10 - 20 or even 30 days of study tim
 You will also learn to use Docker containers to run applications and Docker Volumes to host data.
 For topographical sea maps you will learn how to add OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS.
 
-As examples you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets:
+At the end of the course you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets as basic programming examples for future programming projects and knowledge building:
 1. a Data Dashboard with information on the datasets stored in MongoDB;
 2. a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
 3. a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
