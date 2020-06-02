@@ -140,13 +140,13 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 ## Environment
 The Development Environment in this course will learn you about the following subjects:
 
-1) Virtual Machine hosting: Virtualbox (Installation and Use)
+1) Virtual Machine hosting: Virtualbox (Installation and Use).
 
-2) The Linux Operating System: Ubuntu LTS (Long-Term Support version)
+2) The Linux Operating System: Ubuntu LTS (Long-Term Support version).
 
 3) The programming languages used are Python and TypeScript/JavaScript.
-  - Installation scripts are programmed as bash shell scripts.
-  - Finally there is a small script written in Java used to create the links for the topographical map tiles between the nautical objects on them from OpenSeaMap and the nautical map icons to generate the map tiles for all the map zoom levels to store in the cache folders of the tile server.
+  - installation scripts are programmed as bash shell scripts;
+  - there is also a small script written in Java used to create the links for the topographical map tiles between the nautical objects on them from OpenSeaMap and the nautical map icons to generate the map tiles for all the map zoom levels to store in the cache folders of the tile server.
 
 4) Declarative languages: SQL for relational databases and for webpages of the the end-user webapplications HTML5 and CSS3 are used.
 
@@ -161,16 +161,15 @@ The Development Environment in this course will learn you about the following su
    - loading the datasets in the datastores (PostgreSQL and MongoDB).
 
 7) Working with different datasets:
-   - analyzing datasets using the Python programming language with Jupyter Notebook,
-     Pandas, GeoPandas and much more;
+   - Analyzing datasets using the Python programming language with Jupyter Notebook, Pandas, GeoPandas and much more.
 
 8) Working with different file formats to store geospatial data:
-   - JSON / GeoJSON (JavaScript Object Notation/ Geographical JavaScript Object Notation)
-   - CSV (Comma-Separated Values in Unicode UTF-8 text format)
-   - GPX (Geographical version of XML used to store location points of track loggings)
-   - SHP (ShapeFiles; a proprietary but public standard from ESRI for a distribution file format for geospatial datasets)
+   - JSON / GeoJSON (JavaScript Object Notation/ Geographical JavaScript Object Notation).
+   - CSV (Comma-Separated Values in Unicode UTF-8 text format).
+   - GPX (Geographical version of XML used to store location points of track loggings).
+   - SHP (ShapeFiles; a proprietary but public standard from ESRI for a distribution file format for geospatial datasets).
 
-9) Explore and Transform datasets
+9) Explore and Transform datasets:
    - creating simple data visualizations in Python using Cartopy and MatPlotLib for the exploration of datasets;
    - transforming the geospatial data formats to JSON and GeoJSON for storage in datastores.
 
@@ -182,18 +181,17 @@ The Development Environment in this course will learn you about the following su
    - deleting data(sets) to clean up the MongoDB JSON document datastore.
 
 11) Storing datasets in a SQL datastore: learn to use the RDBMS PostgreSQL in combination with the spatial PostGIS extensions for storing RAW OpenStreetMap data and ShapeFiles:
-   - Loading RAW OSM data in a database using OSM2PGSQL;
-   - Loading ShapeFiles in a database using SHP2PGSQL;
-   - Loading DEMFiles (Digital Elevation Map Files) in a database using Raster2PGSQL;
-   - Querying the data in the PostgreSQL datastores;
+   - loading RAW OSM data in a database using OSM2PGSQL;
+   - loading ShapeFiles in a database using SHP2PGSQL;
+   - loading DEMFiles (Digital Elevation Map Files) in a database using Raster2PGSQL;
+   - querying the data in the PostgreSQL datastores;
    - deleting data(sets) to clean up the PostgreSQL relational database.
 
 12) Creating a Tileserver using Tilestache and Gunicorn:
    - generating topographical basemaps using the raw OpenStreetMap and OpenSeaMap data stored in the PostgreSQL datastore using TileStache, Mapnik and Pillow;
    - generating topographical basemaps using the raw OpenStreetMap and OpenSeaMap data;
    - caching the generated tiles;  
-   - serving the generated tiles to the Frontend (end-user webapplication that
-     runs in the webbrowser);
+   - serving the generated tiles to the Frontend (end-user webapplication that runs in the webbrowser);
    - generating Height Terrain Files using Cesium-Terrain-Builder.
 
 13) Creating a middleware webservice with an API using the Python microwebservices framework Flask and a Gunicorn webserver:
