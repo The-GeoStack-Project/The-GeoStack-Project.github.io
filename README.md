@@ -239,6 +239,7 @@ Note: in the manuals on how to create the VM's you will find detailed instructio
 
 ## Programming tips
 **Lowering the Learning Curve**
+
 1) First of all: read the manuals, cookbooks etc. There is a lot of documentation to explain what, why and how things work. Don't be smart, read it first! It will be time well spent! There is no 'black magic' left, once explained!
 
 2) Second: study the installation scripts and example scripts!
