@@ -107,6 +107,7 @@ If you are not yet familiar with the components of the Development Environment t
 If you're in a hurry (not recommended!) or just curious then simply run the install scripts to get to a working GeoStack and webapplication more quickly.
 
 Building the Workshop VM is documented in the cookbook 'Creating the GeoStack Workshop VM'.
+The programming assignments with a lot of background information is in the cookbook 'Workshop Assignments'.
 
 **About the 10-day GeoStack Course**
 In the GeoStack Course there are many manuals, cookbooks, installation scripts and Python programming examples to learn the details of installing, configuring, using and programming all components in the entire GeoStack.
@@ -122,7 +123,9 @@ At the end of the course you will have 3 working end-user webapplications that r
 2. a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
 3. a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
 
-The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebooks and Programming manuals which are the following documents:
+Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
+
+The full GeoStack Course is documented in the following set of detailed Cookbooks and Programming manuals:
 1. Cookbook-ETL-Process-With-Datasets
 2. Cookbook-Data-Modeling-in-MongoDB
 3. Cookbook-A-Secure-Nginx-Webserver-With-ModSecurity
@@ -132,7 +135,7 @@ The full GeoStack Course consists of a set of detailed Cookbooks, Jupyter Notebo
 7. Manual-Creating-an-2-Dimensional-Map-Viewer
 8. Manual-Creating-an-3-Dimensional-Map-Viewer
 
-Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
+
 
 ## Environment
 The Development Environment in this course will learn you about the following subjects:
