@@ -64,8 +64,8 @@ In order to achieve these learning goals the activities are of course in the rev
 3. Programming: finally you will learn how to program in Python and TypeScript in the Atom programming editor and run the webservices and webapplications locally in your webbrowser, without the further need for an internet connection (running in 'airplane mode').
 
 ## Study time
-The course consists of a 1-day Workshop and a 10-day Course if you have some basic programming skills in Python and preferably in TypeScript or JavaScript too.
-- Depending on your level of expertise you may need to double or triple these time estimates, so your mileage may vary!
+The course consists of a 1-day Workshop followed by a 10-day Course when you have some basic programming skills in Python and preferably in TypeScript or JavaScript too.
+- Depending on your level of expertise you may need to double or triple these time estimates or you might need even more time because there is also a lot of documentation to read, so your mileage may vary!
 
 
 Don't worry if it takes you a little longer because you will get there with the user friendly installation and programming manuals with lot's of screenshots and the source code files in Jupyter Notebooks and example scripts in Python and TypeScript with lot's of inline comments!
