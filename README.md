@@ -303,7 +303,9 @@ Datasets, Software and online services used in this course from third parties ar
 
 ## Disclaimer
 1) Deciding on the fitness for use and using the software and content of this course is your own responsibility.
+
 2) Any other application or use of the software and content other then for educational purposes is not intended and not advised!
+
 3) This course (= THIS PRODUCT) is consisting of software and content (= Documentation and Datasets) and THIS PRODUCT is provided "as-is" and "with all faults" by the MoD-NL (= THE PROVIDER) for educational purposes only as a self-study course and it will not be maintained nor supported in any way.
 
 THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of THIS PRODUCT.
