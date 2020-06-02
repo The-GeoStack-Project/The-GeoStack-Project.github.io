@@ -268,13 +268,11 @@ the webapplications.
 Make it a habit to use a file copy and you'll be safe and save yourself a lot of time!
 
 ## Project origins
-This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam).
+This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
 
+  - The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
   - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
 
-  - The course is the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
-
-The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
 
 The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
 <div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
