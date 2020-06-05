@@ -5,11 +5,13 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course uses 100% Open Source Software, Open Standards and Open Content.
 - The course is both aimed at bachelor and master level students that follow courses in data science and geospatial programming and programming enthousiasts alike.
+- The course is about learning some Python programming for geospatial data science basics.
+- The course is about learning some TypeScript + Angular programming to call JavaScript geospatial frameworks to program basic web applications that plot geospatial data on a digital topographical map with map data from OpenStreetMap.org.
 - The course runs on a Virtual Machine (VM) with [Ubuntu Linux](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org) to work cross-platform on [Linux](https://en.wikipedia.org/wiki/Linux), [macOS](https://en.wikipedia.org/wiki/MacOS) and [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows).
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
-- In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with [OpenLayers]( and a 3D Map Viewer with Cesium.
-- The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps Digital Elevation Map (DEM) files are used that are publicly available as Open Content. To learn how to program with web map servers, also some online web map services are used.
-- The datasets used in the course are GPS track logs that are publicly available as Open Content. Two kinds of file formats are used: CSV files with track logs from GPS trackers on the legs of ringed common cranes (Grus grus) from the animal tracking website [Movebank.org](https://www.movebank.org) and GPX files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
+- In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with [OpenLayers](https://openlayers.org) and a 3D Map Viewer with [Cesium](https://cesium.com/cesiumjs).
+- The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps [Digital Elevation Map (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model) files are used that are publicly available as [Open Content](https://en.wikipedia.org/wiki/Open_content). To learn how to program with web map servers, also some online [web map services](https://en.wikipedia.org/wiki/Web_Map_Service) are used.
+- The datasets used in the course are GPS track logs that are publicly available as Open Content. Two kinds of file formats are used: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) track logs from [GPS trackers](https://en.wikipedia.org/wiki/GPS_tracking_unit) on the legs of ringed [common cranes (Grus grus)](https://en.wikipedia.org/wiki/Common_crane) from the animal tracking website [Movebank.org](https://www.movebank.org) and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
 
 So, go enjoy and learn things!
 
@@ -37,8 +39,8 @@ The learning goals of this course are to create and run a free and light-weight 
 So this course is about downloading some manuals, software and data sets from the internet, adjust it so it can run on the pc in 'airplaine mode' without an internet connection and then learn how to install and configure the GeoStack and program Geospatial Webapplications by using 100% Open Source Software, Open Standards and Open Content!
 
 There are 3 learning goals:
-1. End goal:          Programming Webapplications in TypeScript
-2. Intermediate goal: Programming Middleware in Python
+1. End goal:          Programming Webapplications in [TypeScript](https://www.typescriptlang.org)
+2. Intermediate goal: Programming Middleware in [Python](https://www.python.org/)
 3. Starting goal:     Programming a Client / Server Software Architecture
 
 **The end goal** is to learn to program three end-user webapplications in TypeScript using the Angular framework in combination with the geospatial JavaScript frameworks OpenLayers and Cesium to plot data from datasets on digital topographical maps that the end-user can run from a webbrowser:
