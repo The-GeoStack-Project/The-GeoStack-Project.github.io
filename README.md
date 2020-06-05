@@ -121,7 +121,7 @@ You will also learn to use Docker Containers to run applications and Docker Volu
 For topographical sea maps you will learn how to add the OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS and visualise these objects with OpenLayers in a data layer overlay to create a digital nautical map.
 
 At the end of the course you will have 3 working end-user web applications that run in your web browser to visualize geospatial datasets as basic programming examples for future programming projects and knowledge building:
-1. a Data Dashboard with information on the datasets stored in MongoDB;
+1. a Dataset Dashboard with graphs plotted with [ChartJS](https://www.chartjs.org) to visualize information on the datasets stored in MongoDB;
 2. a 2D map viewer web application with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
 3. a 3D map viewer web application with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
 
@@ -196,28 +196,28 @@ The Development Environment in this course will learn you about the following su
    - serving the generated tiles to the Front End Web Application (= end-user web application that runs in the web browser);
    - generating the terrain tile files with heights for Cesium, using the [Cesium-Terrain-Builder](https://github.com/geo-data/cesium-terrain-builder).
 
-13) Creating a middleware webservice with an API using the Python microwebservices framework Flask and a Gunicorn webserver:
-  - programming the middleware webapplication app.py in Flask to run the 'business logic' of data handling as a (micro)webservice that is necessary to fetch data and pre-process it so the end-user webapplication can get the data to visualize from the API and plot it on topographical maps. This is where the magic happens!
+13) Creating a middleware web service with an API using the Python micro web services framework Flask and a Gunicorn webserver:
+  - programming the middleware web application app.py in Flask to run the 'business logic' of data handling as a (micro) web service that is necessary to fetch data and pre-process it so the end-user web application can get the data to visualize from the API and plot it on topographical maps. This is where the magic happens!
   - connecting to the MongoDB datastores using PyMongo;
-  - connecting to the PostgreSQL datastores using PsycoPG2;
+  - connecting to the PostgreSQL datastores using [PsycoPG2](https://www.psycopg.org/docs);
   - executing queries on the datastores using among other things geospatial queries in combination with PyMongo and PsycoPG2;
-  - transforming and serving the queried data, obtained from the datastores, to the frontend (end-user webapplication).
+  - transforming and serving the queried data, obtained from the datastores, to the front end (= end-user) web application.
 
-14) Creating a Secured NGINX webserver with ModSecurity and the basic OWASP ruleset.
-  - This is provided to learn how to install the mod_security module and the OWASP security ruleset to secure all the Geostack components running behind the NGINX webserver by letting the mod_security module run the security checks.
+14) Creating a Secured [NGINX](https://www.nginx.com) web server with the [ModSecurity](https://www.modsecurity.org/) web application firewall and the [OWASP](https://owasp.org) provided [basic ruleset](https://owasp.org/www-project-top-ten).
+  - This is provided to learn how to install the mod_security module and the basic OWASP security ruleset to secure all the GeoStack components running behind the NGINX web server by letting the mod_security module run the security checks.
   - SECURITY WARNING: do NOT run this configuration for production or other purposes when connected to the internet or any other untrusted network because this course shows just an educational setup with the basic OWASP ruleset!
     - It has not been checked if the configuration or ruleset is fit-for-use!!!
     - It's just a basic installation guide and adding your own security rules is not explained!
     - YOU HAVE BEEN WARNED!!!
 
-15) Creating 3 end-user webapplications using the JavaScript Framework Angular in combination with TypeScript:
-  - a Dataset Dashboard for generating data profiles, using Pandas Profiling and visualizing the datasets using interactive graphs created with the JavaScript library ChartJS;
-  - an 2D Map Viewer using the Geospatial Framework OpenLayers in which you can select multiple routes, animate routes, change layer styles and much more;
-  - an 3D Map Viewer using the Geospatial Framework Cesium in which you can visualize the datasets in 3D.
+15) Creating 3 end-user webapplications using the JavaScript web application framework Angular in combination with TypeScript:
+  - a Dataset Dashboard for generating data profiles, using [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) and visualizing the datasets using interactive graphs created with the JavaScript charting library [ChartJS](https://www.chartjs.org);
+  - a 2D Map Viewer using the geospatial framework OpenLayers in which you can select multiple routes, animate routes, change map layer styles and much more;
+  - a 3D Map Viewer using the geospatial framework Cesium in which you can visualize the datasets on 3D maps.
 
 ## Getting started
 **Download instructions**
-1. Go to the top of the webpage and click the blue button 'Download Manuals'.
+1. Go to the top of the web page and click the blue button 'Download Manuals'.
 2. Save the ZIP file that contains the repository GeoStack-Manuals.
 3. Unzip the ZIP file which will give you the folder GeoStack-Manuals.
 4. In the folder you will find 2 PDF files: Creating-the-Workshop-VM.pdf and Creating-the-Course-VM.pdf.
@@ -231,9 +231,9 @@ The Development Environment in this course will learn you about the following su
 2. Work through the full 10-day GeoStack Course by following the document Creating-the-GeoStack-Course-VM.pdf.
 - There are two ways of building the Course VM:
   - 1 - Automatic installation by using the supplied set of installation scripts.
-  - 2 - Manual installation by working through the large set of 8 detailed course cookbooks and manuals.
+  - 2 - Manual installation by working your way through the large set of 8 detailed course cookbooks and manuals.
 
-Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the webapplications!
+Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the web applications!
 
 Note: in the manuals on how to create the VM's you will find detailed instructions about:
 1. cloning the git repositories GeoStack-Workshop and GeoStack-Course;
@@ -244,16 +244,18 @@ Note: in the manuals on how to create the VM's you will find detailed instructio
 **Lowering the Learning Curve**
 
 
-1) First of all: read the manuals, cookbooks etc. There is a lot of documentation to explain what, why and how things work. Don't be smart, read it first! It will be time well spent! There is no 'black magic' left, once explained!
+1) First of all: read the weblinks on this web page! They paint the picture! Then read the cookbooks, manuals etc. 
+- There is a lot of documentation to explain what, why and how things work. Don't be smart, read it first! 
+- It will be reading time well spent! There is no 'black magic' left, once explained!
 
 2) Second: study the installation scripts and example scripts!
 - For programming with Python scripts and Jupyter Notebooks, TypeScript/JavaScript scripts and bash shell scripts, these scripts and notebooks are used in the simplest way possible and all source code and parameters used are explained in the documentation and in in-line source code comments.
 - There are also many installation-, import-, export- and conversion scripts to work fast and install and run without errors but also to help in learning how things actually work!
 
 3) Third: remember in programming 'a point is not a comma'!
-Typos are made easy but finding them to correct can be really hard!
-So first read carefully until you understand and only then grab your keyboard!
-When coding: type slow and read your code back!
+- Typos are easy to make, but finding them to correct can be really hard!
+- So first read carefully until you understand and only then grab your keyboard!
+- When coding: type slow and read your code back!
 
 4) Finally: make copies of files before you change them!!!
 - If you want to experiment with building the VMs for the Workshop or the Course
@@ -267,7 +269,7 @@ undocumented changes or you might end up with a broken VM.
 - The same goes for changes you want to make to code in Jupyter Notebooks or in
 the webapplications.
 
-Make it a habit to use a file copy and you'll be safe and save yourself a lot of time!
+--> Make it a habit to use a file copy and you'll be safe and save yourself a lot of time!
 
 
 ## Scope limitations
