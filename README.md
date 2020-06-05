@@ -310,7 +310,7 @@ The content of The GeoStack Project is released under the [Creative Commmons Att
 
 **Terms of Service**
 
-Take also careful notice of the following licenses applicable to The GeoStack Project software and content for:
+Take also careful notice of the following Terms of Service applicable to the use of The GeoStack Project software and content available in:
 - GitHub in the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service).
 - YouTube in the [YouTube Terms of Service](https://www.youtube.com/static?template=terms).
 
@@ -345,7 +345,7 @@ Some legal points of special interest, in short terms:
 Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
 - In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
-If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you also agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
 ## Resources
 For the project we use two resources: this GitHub account and a Google account.
