@@ -5,12 +5,12 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course uses 100% Open Source Software, Open Standards and Open Content.
 - The course is both aimed at bachelor and master level students that follow courses in data science and geospatial programming and programming enthousiasts alike.
-- The course is about learning some [Python](https://www.python.org) programming for geospatial data science basics and some [TypeScript](https://www.typescriptlang.org) + [Angular](https://angularjs.org) web application programming to call [JavaScript](https://en.wikipedia.org/wiki/JavaScript) geospatial frameworks to plot geospatial data on a digital topgraphical map.
+- The course is about learning some [Python](https://www.python.org) programming for geospatial data science basics and some web application programming in [TypeScript](https://www.typescriptlang.org) + [Angular](https://angularjs.org) to call [JavaScript](https://en.wikipedia.org/wiki/JavaScript) geospatial frameworks to plot geospatial data on a digital topgraphical map.
 - The course runs on a Virtual Machine (VM) with [Ubuntu Linux](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org) to work cross-platform on [Linux](https://en.wikipedia.org/wiki/Linux), [macOS](https://en.wikipedia.org/wiki/MacOS) and [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows).
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
 - In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with the [OpenLayers](https://openlayers.org) geospatial web application framework and a 3D Map Viewer with the [Cesium](https://cesium.com/cesiumjs) framework.
 - The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps [Digital Elevation Map (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model) files are used that are publicly available as [Open Content](https://en.wikipedia.org/wiki/Open_content). To learn how to program with web map servers, also some online [web map services](https://en.wikipedia.org/wiki/Web_Map_Service) are used.
-- The datasets used in the course are GPS track logs that are publicly available as Open Content. Two kinds of file formats are used: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) track logs from [GPS trackers](https://en.wikipedia.org/wiki/GPS_tracking_unit) on the legs of ringed [common cranes (Grus grus)](https://en.wikipedia.org/wiki/Common_crane) from the animal tracking website [Movebank.org](https://www.movebank.org) and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
+- The datasets used in the course are [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) track logs that are publicly available as Open Content. Two kinds of file formats are used: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with GPS track logs from [GPS trackers](https://en.wikipedia.org/wiki/GPS_tracking_unit) on the legs of ringed [common cranes (Grus grus)](https://en.wikipedia.org/wiki/Common_crane) from the animal tracking website [Movebank.org](https://www.movebank.org) and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files with track logs from a GPS navigation device from travelling routes in The Netherlands donated by a GitHub user as Open Content.
 
 So, go enjoy and learn things!
 
@@ -20,7 +20,7 @@ So, go enjoy and learn things!
 ## Introduction video
 See the introduction video 'Presenting The GeoStack Project' on the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ocObtLqYRwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Tip: visit our YouTube channel for the additional tutorial videos and use the playlists to view them.
+Tip: visit our YouTube channel for lots of additional tutorial videos and use the playlists to view them.
 <br/>
 
 ## Reader's Guide
@@ -33,43 +33,43 @@ Tip: visit our YouTube channel for the additional tutorial videos and use the pl
 7. Finally experiment with loading your own datasets and extra digital topographical maps from OpenStreetMap and of course by modifying and extending the webapplications to learn how to build your own dataset visualizations.
 
 ## Learning Goals
-The learning goals of this course are to create and run a free and light-weight Open Source Geospatial Software Stack, the GeoStack in short, in a Virtual Machine (VM) with Ubuntu Linux on a stand-alone pc or laptop and to program webapplications to visualize geospatial datasets on locally hosted topographical digital maps from OpenStreetMap and OpenSeaMap.
+The learning goals of this course are to create and run a free and light-weight Open Source Geospatial Software Stack, the GeoStack for short, in a Virtual Machine (VM) with Ubuntu Linux on a stand-alone pc or laptop and to program webapplications to visualize geospatial datasets on locally hosted topographical digital maps from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page) and [OpenSeaMap](https://wiki.openstreetmap.org/wiki/OpenSeaMap).
 
-So this course is about downloading some manuals, software and data sets from the internet, adjust it so it can run on the pc in 'airplaine mode' without an internet connection and then learn how to install and configure the GeoStack and program Geospatial Webapplications by using 100% Open Source Software, Open Standards and Open Content!
+So this course is about downloading some manuals, software and data sets from the internet, adjust it so it can run on the pc in 'airplaine mode' without an internet connection and then learn how to install and configure the GeoStack and program Geospatial Web Applications by using 100% Open Source Software, Open Standards and Open Content!
 
 There are 3 learning goals:
 1. End goal:          Programming Webapplications in [TypeScript](https://www.typescriptlang.org)
 2. Intermediate goal: Programming Middleware in [Python](https://www.python.org/)
-3. Starting goal:     Programming a Client / Server Software Architecture
+3. Starting goal:     Programming a [Client / Server Software Architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
 
 **The end goal** is to learn to program three end-user webapplications in TypeScript using the Angular framework in combination with the geospatial JavaScript frameworks OpenLayers and Cesium to plot data from datasets on digital topographical maps that the end-user can run from a webbrowser:
-1. a **Dataset Dashboard** to visualize datasets of GPS track logs that are stored as JSON documents in MongoDB
-2. a **2D Map Viewer** with OpenLayers to visualize the datasets on 2D digital topographical maps from OpenStreetMap (OSM)
-3. a **3D Map Viewer** with Cesium to visualize the datasets on 3D maps with Digital Elevation Models (DEM height files)
+1. a **Dataset Dashboard** to visualize datasets of GPS track logs that are stored as [JSON](https://en.wikipedia.org/wiki/JSON) documents in [MongoDB](https://www.mongodb.com);
+2. a **2D Map Viewer** with OpenLayers to visualize the datasets on 2D digital topographical maps from OpenStreetMap (OSM);
+3. a **3D Map Viewer** with Cesium to visualize the datasets on 3D maps with Digital Elevation Models (DEM height files).
 
-**The intermediate goal** is to learn how to build three webservices with an API for the webapplications to use.
-- Two webservices are required to get access to the 2D and 3D digital topographical maps through the API's of their respective map tile servers as the geospatial web map servers (WMS).
-- The third webservice is provided by programming a microwebservice application with the Python Flask framework to get access to the datasets in the MongoDB datastore.
-  - It is in this Python web application where the magic happens to program the 'payload' or 'business logic' for data selection and processing that needs to match the functionality in the TypeScript webapplication to visualize the required geospatial data.
-  - Isolating the data processing in a (Flask) webapplication behind a webservice API from the Flask application uncouples the data processing from the visualization in the webapplications, making it easy to replace or update either application seperately.
+**The intermediate goal** is to learn how to build three [web services](https://en.wikipedia.org/wiki/Web_service) with an [API](https://en.wikipedia.org/wiki/Application_programming_interface) for the web applications to use.
+- Two web services are required to get access to the 2D and 3D digital topographical maps through the API's of their respective map tile servers as the geospatial web map servers (WMS) to serve [tiled web maps](https://en.wikipedia.org/wiki/Tiled_web_map) to the web browser.
+- The third web service is provided by programming a [micro web service](https://en.wikipedia.org/wiki/Microservices) application with the Python [Flask](https://palletsprojects.com/p/flask/) framework to get access to the datasets in the MongoDB datastore.
+  - It is in this Python 'back end' web application where the magic happens to program the 'payload' or 'business logic' for data selection and processing that needs to match the functionality in the TypeScript 'front end' web application to visualize the required geospatial data.
+  - Isolating the data processing in a (Flask) web application behind a web service API from that Flask web application uncouples the data processing from the visualization in the front end web applications, making it easy to replace or update either application seperately.
 
-**The starting goal** is to learn about the approximately 50 software components required in the Client / Server software architecture you will need to download, install, configure, program and run to be able to use the end-user webapplications in your webbrowser.
-- You will learn about virtualisation to run the course software and data on Ubuntu Linux in a Virtual Machine (VM) isolated from your host operating system. In the full course you will also learn how to isolate software components in the VM by using Docker Containers and Volumes.
-- So yes, the GeoStack Installation and Webapplication Programming is done on Linux as the guest operating system in the VM. A great opportunity for Linux newbies to get to know Linux step by step in practical way.
+**The starting goal** is to learn about the approximately 50 software components required in the Client / Server software architecture you will need to download, install, configure, program and run to be able to use the end-user web applications in your web browser.
+- You will learn about virtualisation to run the course software and data on Ubuntu Linux in a Virtual Machine (VM) completely isolated from your host operating system. In the full course you will also learn how to isolate software components in the VM by using [Docker](https://www.docker.com) and its [Containers](https://www.docker.com/resources/what-container) and [Volumes](https://docs.docker.com/storage/volumes).
+- So yes, the GeoStack Installation and Web Application Programming is done on Linux as the guest operating system in the VM. A great opportunity for Linux newbies to explore [Ubuntu Linux](https://en.wikipedia.org/wiki/Ubuntu) step-by-step from the [Gnome Desktop](https://help.ubuntu.com/stable/ubuntu-help) and the [Linux Command Line](https://ubuntu.com/tutorials/command-line-for-beginners).
 - Learn along the way about the architecture and how virtualization helps to update components independently and in sharing your VMs, containers and volumes with other data scientists and software developers.
 
 ## Workflow
 In order to achieve these learning goals the activities are of course in the reverse order of the learning goals:
 1. Building an Ubuntu Linux Virtual Machine: first you will learn to download all the required datasets and software packages to be stored and installed on your pc or laptop in a Virtual Machine running Ubuntu Linux in VirtualBox.
-2. Data Storage: then you will learn to store the digital topographical maps in the relational spatial database PostgreSQL + spatial PostGIS extension and convert the GPS track log datasets from CSV and GPX files to the JSON dataformat to store the data as JSON documents in the MongoDB datastore.
-3. Programming: finally you will learn how to program in Python and TypeScript in the Atom programming editor and run the webservices and webapplications locally in your webbrowser, without the further need for an internet connection (running in 'airplane mode').
+2. Data Storage: then you will learn to store the digital topographical maps in the relational spatial database [PostgreSQL](https://www.postgresql.org) + spatial [PostGIS](https://postgis.net) extension and convert the GPS track log datasets from CSV and GPX files to the JSON dataformat to store the data as JSON documents in the MongoDB datastore.
+3. Programming: finally you will learn how to program in Python and TypeScript in the [Atom programming editor](https://atom.io) and run the web services and web applications locally in your web browser, without the further need for an internet connection (running in 'airplane mode').
 
 ## Study time
 The course consists of a 1-day Workshop followed by a 10-day Course when you have some basic programming skills in Python and preferably in TypeScript or JavaScript too.
 - Depending on your level of expertise you may need to double or triple these time estimates or you might need even more time because there is also a lot of documentation to read, so your mileage may vary!
 
 
-Don't worry if it takes you a little longer because you will get there with the user friendly installation and programming manuals with lot's of screenshots and the source code files in Jupyter Notebooks and example scripts in Python and TypeScript with lot's of inline comments!
+Don't worry if it takes you a little longer because you will get there with the user friendly installation and programming manuals with lot's of screenshots and the Python source code files in [Jupyter Notebooks](https://jupyter.org) and example scripts in Python and TypeScript with lot's of inline comments!
 
 
 If you are on the other hand a real beginner in programming, you might want to invest some extra well spent study time first as a newbie to get to the required skill levels to follow this course as per the advice below in the section 'Skill levels'!
@@ -77,7 +77,7 @@ If you are on the other hand a real beginner in programming, you might want to i
 ## Skill levels
 1 - **Basic skills** in Python programming are a **must**!
 - Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
-  - It's all Open Content and free to re-use and... also aimed at datascientists with it's focus on data processing!
+  - It's all Open Content and free to re-use and... also aimed at data scientists with it's focus on data processing!
   - Website Python for Everybody            : [https://www.py4e.com/](https://www.py4e.com/)
   - Free e-book 'Exploring Data in Python 3': [https://www.py4e.com/book](https://www.py4e.com/book)
 
@@ -101,28 +101,29 @@ To get fast situational awareness there is a 1-day GeoStack Workshop to build th
 To learn most of the components of the Development Environment, which is described below, to install the required server software for the GeoStack and to program a webapplication this workshop will take you through the whole process to get
 familiar with the server and client software architecture for geospatial programming.
 
-The steps will include installing a spatial database, importing topographic maps from OpenStreetMap, install a JSON datastore, prepare and import geospatial datasets, install a Python webserver with a middleware Flask webapplication for data handling and finally install a NGINX webserver and program an end-user webapplication to visualize the dataset on a topographical map.
+The steps will include installing a spatial database, importing topographic maps from OpenStreetMap, install MongoDB as a datastore for JSON documents with geospatial data, prepare and import geospatial datasets in MongoDB, install a Python webserver with a middleware Flask webapplication for data handling, install a NGINX webserver and finally program an end-user webapplication to visualize the dataset on a digital topographical map.
 
 If you are not yet familiar with the components of the Development Environment then just take a day extra to read a little more.
 
-If you're in a hurry (not recommended!) or just curious then simply run the install scripts to get to a working GeoStack and webapplication more quickly.
+If you're in a hurry (not recommended!) or just curious then simply run the installation scripts to get to a working GeoStack and webapplication more quickly.
 
 Building the Workshop VM is documented in the cookbook 'Creating the GeoStack Workshop VM'.
-The programming assignments with a lot of background information is in the cookbook 'Workshop Assignments'.
+The cookbook 'Workshop Assignments' introduces the programming assignments with lots of background information for beginners!
+The programming assignments themselves are of course in the Jupyter Notebooks, source code files and configuration files.
 
 **About the 10-day GeoStack Course**
-In the GeoStack Course there are many manuals, cookbooks, installation scripts and Python programming examples to learn the details of installing, configuring, using and programming all components in the entire GeoStack.
-The same goes for using the datasets en programming the end-user webapplications.
+In the GeoStack Course there are many manuals, cookbooks, installation scripts and programming examples in Python to learn the details of installing, configuring, using and programming all components in the entire GeoStack.
+The same goes for using the datasets en programming the end-user webapplications in TypeScript + Angular and JavaScript.
 
-This will take a serious time investment of 10 - 20 or even 30 days of study time to read and experiment with the software and datasets but after that you will have build a GeoStack VM from scratch and you know how geospatial webapplications work!
+This will take a serious time investment of 10 - 20 or even 30 days of study time to read and experiment with the software and datasets but after that you will have build a GeoStack VM from scratch and you know how geospatial web applications work!
 
-You will also learn to use Docker containers to run applications and Docker Volumes to host data.
-For topographical sea maps you will learn how to add OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS.
+You will also learn to use Docker Containers to run applications and Docker Volumes to host data.
+For topographical sea maps you will learn how to add the OpenSeaMap data of nautical objects to your spatial database PostgreSQL/PostGIS and visualise these objects with OpenLayers in a data layer overlay to create a digital nautical map.
 
-At the end of the course you will have 3 working end-user webapplications that run in your webbrowser to visualize geospatial datasets as basic programming examples for future programming projects and knowledge building:
+At the end of the course you will have 3 working end-user web applications that run in your web browser to visualize geospatial datasets as basic programming examples for future programming projects and knowledge building:
 1. a Data Dashboard with information on the datasets stored in MongoDB;
-2. a 2D map viewer webapplication with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
-3. a 3D map viewer webapplication with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
+2. a 2D map viewer web application with OpenLayers to plot geospatial data on OpenStreetMap and OpenSeaMap maps;
+3. a 3D map viewer web application with Cesium to plot data in a 3D map projection with the map showing a terrain elevation model to get a nice visualization when plotting datapoints with a height coordinate. So it's all about plotting (x,y,z) coordinates instead of just (x,y) location positions.
 
 Building the Course VM is documented in the cookbook 'Creating the GeoStack Course VM'.
 
@@ -147,32 +148,32 @@ The Development Environment in this course will learn you about the following su
 
 3) The programming languages used are Python and TypeScript/JavaScript.
   - installation scripts are programmed as bash shell scripts;
-  - there is also a small script written in Java used to create the links for the topographical map tiles between the nautical objects on them from OpenSeaMap and the nautical map icons to generate the map tiles for all the map zoom levels to store in the cache folders of the tile server.
+  - there is also a small script written in Java used to create the links for the topographical map tiles between the nautical objects on them from OpenSeaMap and the nautical map icons to generate the map tiles for all the [map zoom levels](https://wiki.openstreetmap.org/wiki/Zoom_levels) to store in the cache folders of the tile server.
 
-4) Declarative languages: SQL for relational databases and for webpages of the the end-user webapplications HTML5 and CSS3 are used.
+4) Declarative languages: [SQL](https://en.wikipedia.org/wiki/SQL) for [relational databases](https://en.wikipedia.org/wiki/Relational_database) and for web pages of the end-user web applications [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) are used.
 
 5) Compartmentalize the GeoStack components using Docker:
-  - creating separate Docker containers;
-  - using Docker-compose;
-  - creating and exporting Docker data volumes.
+  - creating separate Docker Containers;
+  - using [Docker Compose](https://docs.docker.com/compose);
+  - creating and exporting Docker Volumes for data.
 
-6) The ETL-Process (Extract, Transform and Load):
+6) The [ETL-Process (Extract, Transform and Load)](https://en.wikipedia.org/wiki/Extract,_transform,_load):
    - extracting data from data sources (reading files formats holding the raw data);
    - filtering and transforming the datasets (data selection and conversion);
    - loading the datasets in the datastores (PostgreSQL and MongoDB).
 
 7) Working with different datasets:
-   - Analyzing datasets using the Python programming language with Jupyter Notebook, Pandas, GeoPandas and much more.
+   - Analyzing datasets using the Python programming language with Jupyter Notebook, [Pandas](https://pandas.pydata.org), [GeoPandas](https://geopandas.org) and much more.
 
 8) Working with different file formats to store geospatial data:
    - JSON / GeoJSON (JavaScript Object Notation/ Geographical JavaScript Object Notation).
    - CSV (Comma-Separated Values in Unicode UTF-8 text format).
-   - GPX (Geographical version of XML used to store location points of track loggings).
-   - SHP (ShapeFiles; a proprietary but public standard from ESRI for a distribution file format for geospatial datasets).
+   - GPX (Geographical version of [XML](https://en.wikipedia.org/wiki/XML) used to store location points of track loggings).
+   - [SHP](https://en.wikipedia.org/wiki/Shapefile) (ShapeFiles; a proprietary but public standard from ESRI for a distribution file format for geospatial datasets).
 
 9) Explore and Transform datasets:
-   - creating simple data visualizations in Python using Cartopy and MatPlotLib for the exploration of datasets;
-   - transforming the geospatial data formats to JSON and GeoJSON for storage in datastores.
+   - creating simple data visualizations in Python using [Cartopy](https://scitools.org.uk/cartopy/docs/latest) and [MatPlotLib](https://matplotlib.org) for the exploration of datasets;
+   - transforming the geospatial data formats to [JSON](https://en.wikipedia.org/wiki/JSON) and [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) for storage in datastores.
 
 10) Storing datasets in a NoSQL datastore: learn to use the JSON documentstore MongoDB for...
    - creating database models using MongoEngine;
