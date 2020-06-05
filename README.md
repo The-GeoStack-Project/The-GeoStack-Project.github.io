@@ -369,7 +369,7 @@ Overview GitHub Repositories - The project has 5 repositories and for two reposi
 
 5) The-GeoStack-Project.github.io: the repository for this home page.
 
-**Google account - for project support**
+**Google account - for videos and project team support**
 
 The project uses two main services:
 
