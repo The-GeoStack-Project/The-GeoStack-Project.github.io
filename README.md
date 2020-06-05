@@ -291,37 +291,54 @@ develop and run webapplications for visualization of geospatial datasets. There 
 - cesiumpy: a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
 - Git: for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
 
-## Licenses
-© Netherlands Ministry of Defence (MoD-NL). This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use.
-- The software is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
-  - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
-- The content is released und the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
-  - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
-  - Please refer for attribution to this project as: The GeoStack Project
+## Legal Stuff
+**Licenses and Copyrights**
+This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use. 
+- © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter Lems and the GeoStack Project contributors.
 
+The software of The GeoStack Project is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
+  - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
+
+The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
+  - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
+   
 Any and all datasets, software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
-## Disclaimer
-1) Deciding on the fitness for use and using the software and content of this course is your own responsibility.
+**Attribution guidelines** 
 
-2) Any other application or use of the software and content other then for educational purposes is not intended and not advised!
+Please refer for attribution to this project as: The GeoStack Project ([https://The-GeoStack-Project.github.io](https://The-GeoStack-Project.github.io))
+ 
+If you refer to specific documents or videos of the project please follow these [Creative Commons guidelines on 'Best practices for attribution'](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) to compose your weblinks correctly.
 
-3) This course (= THIS PRODUCT) is consisting of software and content (= Documentation and Datasets) and THIS PRODUCT is provided "as-is" and "with all faults" by the MoD-NL (= THE PROVIDER) for educational purposes only as a self-study course and it will not be maintained nor supported in any way.
+**Disclaimer**
 
-THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of THIS PRODUCT.
+Take careful notice of the following legal information on applicable licenses:
+- the applicable licenses ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) and [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) to The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
+- the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for the software and content in the GitHub repositories.
 
-There are inherent dangers in the use of any software, documentation, and datasets and you are solely responsible for determining whether THIS PRODUCT is compatible with your equipment and other software and data installed on your equipment.
+You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
+- If you harm someone else or get into a dispute with someone else, we will not be involved. 
+- You understand and agree that you will indemnify, defend and hold us harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
 
-You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing THIS PRODUCT.
+Some legal points of special interest, in short terms:
 
-## Participation
-**Resources**
+1) The software and content of The GeoStack Project is provided ”as is,” and ”as available”. 
+- We make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
+
+2) You agree that your use of The GeoStack Project software and content is your own responsibility and any use is at your own risk. 
+- You decide if the software and content is suitable for your use, but be aware that we are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
+
+3) Any other application or use of the software and content other than for educational purposes is not intended and not advised!
+
+## Resources
 For the project we use two resources: this GitHub account and a Google account.
 
-GitHub account: the home of the project.
-- Click the blue buttons at the top of this webpage to view the project's public repositories and check the Issue Tracker or the Wiki pages.
+**GitHub account - the home of the project**
 
-GitHub Repositories: the project has 5 repositories and for two repositories there is a convenient blue download button at the top of this webpage.
+Click the blue buttons at the top of this webpage to view the project's public repositories and check the Issue Tracker, the Wiki pages or the latest News.
+
+Overview GitHub Repositories - The project has 5 repositories and for two repositories there is a convenient blue download button at the top of this webpage.
+
 1) GeoStack-Manuals: the blue download button offers a ZIP file download of the GeoStack-Manuals repository with the two manuals to start building the Virtual Machines for the Workshop and the Course.
 
 2) GeoStack-Project-Files: the blue download button offers a ZIP file download of the GeoStack-Project-Files repository with the text editor source documents, document images, document cover design and project logo for all the PDF files of the workshop and course. Just to save you a lot of time in case you want to re-use content! 
@@ -335,7 +352,9 @@ GitHub Repositories: the project has 5 repositories and for two repositories the
 
 5) The-GeoStack-Project.github.io: the repository for this home page.
 
-Google account: for project support.
+**Google account - for project support**
+
+The project uses two main services:
 1) YouTube Channel
 - Go to the project's YouTube Channel to see the introduction video, overview videos and video tutorial clips.
 - Videos were created using ShotCut and are published in the WebM or MP4 file formats.
@@ -343,6 +362,7 @@ Google account: for project support.
 - Backup the video source files.
 - Backup the GitHub repos.
 
+## Participation
 **Contact**
 
 The project team only uses the Issue Tracker for contact: 
