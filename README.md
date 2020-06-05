@@ -5,7 +5,7 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course uses 100% Open Source Software, Open Standards and Open Content.
 - The course is both aimed at bachelor and master level students that follow courses in data science and geospatial programming and programming enthousiasts alike.
-- The course is about learning some [Python](https://www.python.org) programming for geospatial data science basics and some web application programming in [TypeScript](https://www.typescriptlang.org) + [Angular](https://angularjs.org) to call [JavaScript](https://en.wikipedia.org/wiki/JavaScript) geospatial frameworks to plot geospatial data on a digital topgraphical map.
+- The course is about learning some [Python](https://www.python.org) programming for geospatial data science basics and some web application programming in [TypeScript](https://www.typescriptlang.org) + [Angular](https://angularjs.org) to call [JavaScript](https://en.wikipedia.org/wiki/JavaScript) geospatial frameworks to plot geospatial data on a [digital topgraphical map](https://en.wikipedia.org/wiki/Topographic_map).
 - The course runs on a Virtual Machine (VM) with [Ubuntu Linux](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org) to work cross-platform on [Linux](https://en.wikipedia.org/wiki/Linux), [macOS](https://en.wikipedia.org/wiki/MacOS) and [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows).
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
 - In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with the [OpenLayers](https://openlayers.org) geospatial web application framework and a 3D Map Viewer with the [Cesium](https://cesium.com/cesiumjs) framework.
@@ -175,26 +175,26 @@ The Development Environment in this course will learn you about the following su
    - creating simple data visualizations in Python using [Cartopy](https://scitools.org.uk/cartopy/docs/latest) and [MatPlotLib](https://matplotlib.org) for the exploration of datasets;
    - transforming the geospatial data formats to [JSON](https://en.wikipedia.org/wiki/JSON) and [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) for storage in datastores.
 
-10) Storing datasets in a NoSQL datastore: learn to use the JSON documentstore MongoDB for...
-   - creating database models using MongoEngine;
-   - loading data using MongoEngine and the created datamodels;
-   - indexing MongoDB datastores using MongoEngine and / or PyMongo;
+10) Storing datasets in a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) datastore: learn to use the JSON document datastore MongoDB for...
+   - creating database models using [MongoEngine](http://mongoengine.org);
+   - loading data using MongoEngine and the created [data models for MongoDB](https://docs.mongodb.com/manual/core/data-modeling-introduction/);
+   - [indexing MongoDB datastores](https://docs.mongodb.com/manual/indexes) using MongoEngine and / or [PyMongo](https://pymongo.readthedocs.io/en/stable);
    - querying data using MongoEngine and / or PyMongo;
-   - deleting data(sets) to clean up the MongoDB JSON document datastore.
+   - deleting data(sets) with the database managment tool [MongoDB Compass](https://www.mongodb.com/products/compass) to clean up the MongoDB JSON document datastore.
 
-11) Storing datasets in a SQL datastore: learn to use the RDBMS PostgreSQL in combination with the spatial PostGIS extensions for storing RAW OpenStreetMap data and ShapeFiles:
-   - loading RAW OSM data in a database using OSM2PGSQL;
-   - loading ShapeFiles in a database using SHP2PGSQL;
-   - loading DEMFiles (Digital Elevation Map Files) in a database using Raster2PGSQL;
+11) Storing datasets in a SQL datastore: learn to use the RDBMS PostgreSQL in combination with the spatial PostGIS extensions for storing RAW OpenStreetMap data and storing geospatial data from ShapeFiles:
+   - loading RAW OSM data in a database using [OSM2PGSQL](https://wiki.openstreetmap.org/wiki/Osm2pgsql);
+   - loading ShapeFiles in a database using [SHP2PGSQL](https://postgis.net/docs/using_postgis_dbmanagement.html#shp2pgsql_usage);
+   - loading DEMFiles (Digital Elevation Map Files) in a database using [Raster2PGSQL](https://postgis.net/docs/using_raster_dataman.html#RT_Raster_Loader);
    - querying the data in the PostgreSQL datastores;
    - deleting data(sets) to clean up the PostgreSQL relational database.
 
-12) Creating a Tileserver using Tilestache and Gunicorn:
-   - generating topographical basemaps using the raw OpenStreetMap and OpenSeaMap data stored in the PostgreSQL datastore using TileStache, Mapnik and Pillow;
-   - generating topographical basemaps using the raw OpenStreetMap and OpenSeaMap data;
+12) Creating a Tile Server using [TileStache](http://tilestache.org) and [Gunicorn](https://gunicorn.org):
+   - generating topographical basemaps using the raw OpenStreetMap and OpenSeaMap data stored in the PostgreSQL datastore using TileStache, [Mapnik](https://mapnik.org] and [Pillow](https://pillow.readthedocs.io/en/stable);
+   - generating topographical base maps using the raw OpenStreetMap and OpenSeaMap data;
    - caching the generated tiles;  
-   - serving the generated tiles to the Frontend (end-user webapplication that runs in the webbrowser);
-   - generating Height Terrain Files using Cesium-Terrain-Builder.
+   - serving the generated tiles to the Front End Web Application (= end-user web application that runs in the web browser);
+   - generating the terrain tile files with heights for Cesium, using the [Cesium-Terrain-Builder](https://github.com/geo-data/cesium-terrain-builder).
 
 13) Creating a middleware webservice with an API using the Python microwebservices framework Flask and a Gunicorn webserver:
   - programming the middleware webapplication app.py in Flask to run the 'business logic' of data handling as a (micro)webservice that is necessary to fetch data and pre-process it so the end-user webapplication can get the data to visualize from the API and plot it on topographical maps. This is where the magic happens!
