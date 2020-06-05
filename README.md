@@ -277,23 +277,27 @@ develop and run webapplications for visualization of geospatial datasets. There 
 3) Complexity reduction: some well known software products are left out of scope in order not to complicate things more than necessary for an already fairly complex beginner course, like:
 - QGIS: a great Open Source geospatial desktop application! Recommended for geospatial enthousiasts after taking this course! Also very useful in exploring geospatial datasets. Left out because it takes a course in itself to learn QGIS.
 - Leaflet + Python Folium: Leaflet is a comparable geospatial webapplication framework to OpenLayers for generating 2D topographical map views and Folium is the Python wrapper module for it. Once you have learned OpenLayers in this course you have a good reference to explore Leaflet/Folium in order to find out what works best for your use cases.
-- cesiumpy: a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
-- Git: for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
+- [cesiumpy](https://github.com/sinhrks/cesiumpy): a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
+- [Git](https://en.wikipedia.org/wiki/Git): for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
 
 ## Project origins
-This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
+**Development**
 
-  - The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
+This programming course was originally created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
+
+  - The internship was offered by the ICT innovation department of the Netherlands Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
   - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
   - After his internship Pieter continued to contribute to this project as a volunteer software developer.
 
+**Motivation**
 
-The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
+The motivation to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
 <div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
 <br/>
 
 ## Legal Stuff
 **Licenses and Copyrights**
+
 This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use. 
 - © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter Lems and the GeoStack Project contributors.
 
@@ -302,7 +306,11 @@ The software of The GeoStack Project is released under the [European Union Publi
 
 The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
-   
+
+Take careful notice of the following legal information on applicable licenses:
+- the licenses [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) and ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) for The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
+- the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for the software and content in the GitHub repositories.   
+
 Any and all datasets, software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
 **Attribution guidelines** 
@@ -312,10 +320,6 @@ Please refer for attribution to this project as: The GeoStack Project ([https://
 If you refer to specific documents or videos of the project please follow these [Creative Commons guidelines on 'Best practices for attribution'](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) to compose your weblinks correctly.
 
 **Disclaimer**
-
-Take careful notice of the following legal information on applicable licenses:
-- the applicable licenses [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) and ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) to The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
-- the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for the software and content in the GitHub repositories.
 
 You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
 - If you harm someone else or get into a dispute with someone else, we will not be involved. 
@@ -334,9 +338,9 @@ Some legal points of special interest, in short terms:
 **Contributing**
 
 Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
-- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
+- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
-If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
 ## Resources
 For the project we use two resources: this GitHub account and a Google account.
@@ -351,21 +355,23 @@ Overview GitHub Repositories - The project has 5 repositories and for two reposi
 
 2) GeoStack-Project-Files: the blue download button offers a ZIP file download of the GeoStack-Project-Files repository with the text editor source documents, document images, document cover design and project logo for all the PDF files of the workshop and course. Just to save you a lot of time in case you want to re-use content! 
 
-- Text editing was done with LibreOffice Writer and the document files are in the Open Document Text (ODT) file format.
-- Image processing was done with GIMP.
+- Text editing was done with [LibreOffice Writer](https://www.libreoffice.org/) and the document files are in the [Open Document Text (ODT)](https://en.wikipedia.org/wiki/OpenDocument) file format.
+- Image processing was done with [GIMP](https://www.gimp.org/).
 
-3) GeoStack-Workshop: the repository for the 1-day Workshop that you download in your Linux Virtual Machine when following the cookbook 'Creating the Workshop VM'.
+3) GeoStack-Workshop: the repository for the 1-day Workshop that you learn to download in your Linux Virtual Machine when following the cookbook 'Creating the Workshop VM'.
 
-4) GeoStack-Course: the repository for the 10-day Course that you download in your Linux Virtual Machine when following the cookbook 'Creating the Course VM'.
+4) GeoStack-Course: the repository for the 10-day Course that you learn to download in your Linux Virtual Machine when following the cookbook 'Creating the Course VM'.
 
 5) The-GeoStack-Project.github.io: the repository for this home page.
 
 **Google account - for project support**
 
 The project uses two main services:
+
 1) YouTube Channel
 - Go to the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g) to see the introduction video, overview videos and video tutorial clips.
-- Videos were created using ShotCut and are published in the [WebM](https://en.wikipedia.org/wiki/WebM) or [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) file formats.
+- Videos were created using the [ShotCut video editor](http://shotcut.org/) and are published in the [WebM](https://en.wikipedia.org/wiki/WebM) or [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) file formats.
+
 2) Drive: for backup of the project
 - Backup the video source files.
 - Backup the GitHub repos.
@@ -374,8 +380,8 @@ The project uses two main services:
 **Contact**
 
 The project team only uses the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) for contact: 
-- Use the Issue Tracker to post an Ticket if you have a question for the project team, to report a bug or make a Project Enhancement Proposal (PEP). 
-- Please use the proper labels to tag your issue accordingly!
+- Use the Issue Tracker to post a Ticket if you have a question for the project team, to report a bug or make a Project Enhancement Proposal (PEP). 
+- Please use the proper labels to tag the ticket for your issue accordingly!
 
 **Support**
 
@@ -387,7 +393,8 @@ Currently we are only accepting tickets in the Issue Tracker but with no promise
 
 Currently we are not accepting pull requests from GitHub users other than the current team members.
 
-**New Team Members** 
+**New Team Members**
+
 The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises.
 
 New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
