@@ -5,9 +5,9 @@ Welcome to the Open Source Geospatial Programming Course!
 - The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
 - The course uses 100% Open Source Software, Open Standards and Open Content.
 - The course is both aimed at bachelor and master level students that follow courses in data science and geospatial programming and programming enthousiasts alike.
-- The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox to work cross-platform on Linux, MacOS and Windows.
+- The course runs on a Virtual Machine (VM) with [Ubuntu Linux](https://ubuntu.com/) in [VirtualBox](https://www.virtualbox.org) to work cross-platform on [Linux](https://en.wikipedia.org/wiki/Linux), [macOS](https://en.wikipedia.org/wiki/MacOS) and [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows).
 - In the 1-day Workshop you will build the VM to run a simplified version of a 2D Map Viewer webapplication to explore.
-- In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with OpenLayers and a 3D Map Viewer with Cesium.
+- In the 10-day Course you will build the full GeoStack VM to run 3 webapplications: a Dataset Dashboard, a 2D Map Viewer with [OpenLayers]( and a 3D Map Viewer with Cesium.
 - The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps Digital Elevation Map (DEM) files are used that are publicly available as Open Content. To learn how to program with web map servers, also some online web map services are used.
 - The datasets used in the course are GPS track logs that are publicly available as Open Content. Two kinds of file formats are used: CSV files with track logs from GPS trackers on the legs of ringed common cranes (Grus grus) from the animal tracking website [Movebank.org](https://www.movebank.org) and GPX files with track logs from a GPS navigation device from travelling routes in The Netherlands from another GitHub user who donated the datasets for this course as Open Content.
 
@@ -275,9 +275,10 @@ Make it a habit to use a file copy and you'll be safe and save yourself a lot of
 develop and run webapplications for visualization of geospatial datasets. There are more Open Source Software products that can provide the same functionality as the products chosen in this course.
 
 3) Complexity reduction: some well known software products are left out of scope in order not to complicate things more than necessary for an already fairly complex beginner course, like:
-- QGIS: a great Open Source geospatial desktop application! Recommended for geospatial enthousiasts after taking this course! Also very useful in exploring geospatial datasets. Left out because it takes a course in itself to learn QGIS.
-- Leaflet + Python Folium: Leaflet is a comparable geospatial webapplication framework to OpenLayers for generating 2D topographical map views and Folium is the Python wrapper module for it. Once you have learned OpenLayers in this course you have a good reference to explore Leaflet/Folium in order to find out what works best for your use cases.
+- [QGIS](https://qgis.org): a great Open Source geospatial desktop application! Recommended for geospatial enthousiasts after taking this course! Also very useful in exploring geospatial datasets. Left out because it takes a course in itself to learn QGIS.
+- [Leaflet](https://leafletjs.com) + Python [Folium](https://github.com/python-visualization/folium): Leaflet is a comparable geospatial webapplication framework to OpenLayers for generating 2D topographical map views and Folium is the Python wrapper module for it. Once you have learned OpenLayers in this course you have a good reference to explore Leaflet/Folium in order to find out what works best for your use cases.
 - [cesiumpy](https://github.com/sinhrks/cesiumpy): a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
+- [Marble](https://marble.kde.org/): as an Open Source Virtual Globe or World Atlas application for desktop and mobile very interesting to get some programming experience with because it also uses OpenStreetMap. Build some knowledge first with Cesium for 3D maps and then it's time for Marble or programming with another virtual globe application like [Google Earth](https://www.google.com/earth/).
 - [Git](https://en.wikipedia.org/wiki/Git): for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
 
 ## Project origins
@@ -299,7 +300,7 @@ The motivation to create this course is to collect and combine all the very much
 **Licenses and Copyrights**
 
 This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use. 
-- © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter Lems and the GeoStack Project contributors.
+- © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter Lems and The GeoStack Project contributors.
 
 The software of The GeoStack Project is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
   - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
