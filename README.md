@@ -272,6 +272,7 @@ This programming course was created by computer science student [Pieter Lems](ht
 
   - The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
   - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
+  - After his internship Pieter continued to contribute to this project as a volunteer software developer.
 
 
 The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
@@ -313,27 +314,63 @@ There are inherent dangers in the use of any software, documentation, and datase
 
 You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing THIS PRODUCT.
 
-## Project Participation
+## Participation
 **Resources**
+For the project we use two resources: this GitHub account and a Google account.
 
-GitHub: click the blue buttons at the top of this webpage to check the Issue Tracker or the Wiki pages.
+GitHub account: the home of the project.
+- Click the blue buttons at the top of this webpage to view the project's public repositories and check the Issue Tracker or the Wiki pages.
 
-YouTube: go to the project's YouTube Channel to see the overview videos and video tutorial clips.
+GitHub Repositories: the project has 5 repositories and for two repositories there is a convenient blue download button at the top of this webpage.
+1) GeoStack-Manuals: the blue download button offers a ZIP file download of the GeoStack-Manuals repository with the two manuals to start building the Virtual Machines for the Workshop and the Course.
 
-**Participation**
+2) GeoStack-Project-Files: the blue download button offers a ZIP file download of the GeoStack-Project-Files repository with the text editor source documents, document images, document cover design and project logo for all the PDF files of the workshop and course. Just to save you a lot of time in case you want to re-use content! 
 
-GitHub: use the Issue Tracker if you have a question for the project team, to report a bug or make a project enhancement proposal. Please use the proper labels to tag your issue accordingly!
+- Text editing was done with LibreOffice Writer and the document files are in the Open Document Text (ODT) file format.
+- Image processing was done with GIMP.
 
-**Project support**
+3) GeoStack-Workshop: the repository for the 1-day Workshop that you download in your Linux Virtual Machine when following the cookbook 'Creating the Workshop VM'.
 
-The project is currently published as-is and if volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
+4) GeoStack-Course: the repository for the 10-day Course that you download in your Linux Virtual Machine when following the cookbook 'Creating the Course VM'.
 
+5) The-GeoStack-Project.github.io: the repository for this home page.
 
-Currently the project has not yet a way to welcome volunteers but the information for that will be published here.
+Google account: for project support.
+1) YouTube Channel
+- Go to the project's YouTube Channel to see the introduction video, overview videos and video tutorial clips.
+- Videos were created using ShotCut and are published in the WebM or MP4 file formats.
+2) Drive: for backup of the project
+- Backup the video source files.
+- Backup the GitHub repos.
 
+**Contact**
 
-New team members are needed because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
+The project team only uses the Issue Tracker for contact: 
+- Use the Issue Tracker to post an Issue Ticket if you have a question for the project team, to report a bug or make a Project Enhancement Proposal (PEP). 
+- Please use the proper labels to tag your issue accordingly!
+- Note: because this project is currently not an active open source project, expect several days of delay or more for a ticket response! Handling tickets is not a priority!
 
+**Contributing**
 
+Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
+- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
 
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
 
+**Support**
+
+The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance.
+
+Current support situation
+- Currently we are not accepting pull requests from other GitHub users than the current team members.
+- We are only accepting tickets with no promises to response times.
+
+**New Team Members** 
+
+New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
+- If volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
+- Currently the project has not yet a way to welcome new volunteers but the information for that will be published here.
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
