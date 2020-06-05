@@ -308,9 +308,7 @@ The software of The GeoStack Project is released under the [European Union Publi
 The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-Take careful notice of the following legal information on applicable licenses:
-- the licenses [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) and ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) for The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
-- the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for the software and content in the GitHub repositories.   
+Take careful notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for The GeoStack Project software and content in the GitHub repositories.   
 
 Any and all datasets, software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
@@ -339,7 +337,7 @@ Some legal points of special interest, in short terms:
 **Contributing**
 
 Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
-- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+- In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
 If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
 
