@@ -308,7 +308,7 @@ The software of The GeoStack Project is released under the [European Union Publi
 The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-Take careful notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for The GeoStack Project software and content in the GitHub repositories.   
+Take also careful notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) applicable to The GeoStack Project software and content in the GitHub repositories.   
 
 Any and all datasets, software and online services used in this course from third parties are (re-)used under their own respective licenses.
 
