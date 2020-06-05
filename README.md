@@ -13,7 +13,7 @@ Welcome to the Open Source Geospatial Programming Course!
 
 So, go enjoy and learn things!
 
-**The repositories with software and content will be published here somewhere between May 25 and July 1, 2020.**
+**The repositories with software and content will be published here somewhere between June 25 and July 1, 2020.**
 
 
 ## Introduction video
@@ -267,17 +267,6 @@ the webapplications.
 
 Make it a habit to use a file copy and you'll be safe and save yourself a lot of time!
 
-## Project origins
-This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
-
-  - The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
-  - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
-  - After his internship Pieter continued to contribute to this project as a volunteer software developer.
-
-
-The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
-<div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
-<br/>
 
 ## Scope limitations
 1) Educational goal: the software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
@@ -290,6 +279,18 @@ develop and run webapplications for visualization of geospatial datasets. There 
 - Leaflet + Python Folium: Leaflet is a comparable geospatial webapplication framework to OpenLayers for generating 2D topographical map views and Folium is the Python wrapper module for it. Once you have learned OpenLayers in this course you have a good reference to explore Leaflet/Folium in order to find out what works best for your use cases.
 - cesiumpy: a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
 - Git: for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
+
+## Project origins
+This programming course was created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
+
+  - The internship was offered by the ICT innovation department of the Dutch Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
+  - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
+  - After his internship Pieter continued to contribute to this project as a volunteer software developer.
+
+
+The reason to create this course is to collect and combine all the very much fragmented information from many manuals, (video)tutorials, applications, programming languages and frameworks, file formats etc. into one documentation set for beginners in data science, programming and systems managment to learn to download, install, program and use all the software components and datasets in one logical workflow to get:
+<div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
+<br/>
 
 ## Legal Stuff
 **Licenses and Copyrights**
@@ -313,7 +314,7 @@ If you refer to specific documents or videos of the project please follow these 
 **Disclaimer**
 
 Take careful notice of the following legal information on applicable licenses:
-- the applicable licenses ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) and [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) to The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
+- the applicable licenses [EUPL Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt) and ([CC-BY Version 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) to The GeoStack Project software and content in the GitHub repositories and the video content on the YouTube channel The GeoStack Project;
 - the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for the software and content in the GitHub repositories.
 
 You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
@@ -329,6 +330,13 @@ Some legal points of special interest, in short terms:
 - You decide if the software and content is suitable for your use, but be aware that we are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
 
 3) Any other application or use of the software and content other than for educational purposes is not intended and not advised!
+
+**Contributing**
+
+Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
+- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
+
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
 
 ## Resources
 For the project we use two resources: this GitHub account and a Google account.
@@ -356,8 +364,8 @@ Overview GitHub Repositories - The project has 5 repositories and for two reposi
 
 The project uses two main services:
 1) YouTube Channel
-- Go to the project's YouTube Channel to see the introduction video, overview videos and video tutorial clips.
-- Videos were created using ShotCut and are published in the WebM or MP4 file formats.
+- Go to the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g) to see the introduction video, overview videos and video tutorial clips.
+- Videos were created using ShotCut and are published in the [WebM](https://en.wikipedia.org/wiki/WebM) or [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) file formats.
 2) Drive: for backup of the project
 - Backup the video source files.
 - Backup the GitHub repos.
@@ -365,31 +373,27 @@ The project uses two main services:
 ## Participation
 **Contact**
 
-The project team only uses the Issue Tracker for contact: 
-- Use the Issue Tracker to post an Issue Ticket if you have a question for the project team, to report a bug or make a Project Enhancement Proposal (PEP). 
+The project team only uses the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) for contact: 
+- Use the Issue Tracker to post an Ticket if you have a question for the project team, to report a bug or make a Project Enhancement Proposal (PEP). 
 - Please use the proper labels to tag your issue accordingly!
-- Note: because this project is currently not an active open source project, expect several days of delay or more for a ticket response! Handling tickets is not a priority!
-
-**Contributing**
-
-Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
-- In short non-legal terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
-
-If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you agree that the same software and content licenses (EUPL version 1.2 and CC-BY version 4.0) will be applicable to your contributions as well.
 
 **Support**
 
-The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance.
+Currently we are only accepting tickets in the Issue Tracker but with no promises to response times or realisation.
+- Support is very limited, because this project is currently not an active open source project.
+- Expect at least several days of delay or more for a ticket response! Handling tickets is not a priority! Maybe we look once a week! ;)
 
-Current support situation
-- Currently we are not accepting pull requests from other GitHub users than the current team members.
-- We are only accepting tickets with no promises to response times.
+**Pull requests**
+
+Currently we are not accepting pull requests from GitHub users other than the current team members.
 
 **New Team Members** 
+The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises.
 
 New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
 - If volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
-- Currently the project has not yet a way to welcome new volunteers but the information for that will be published here.
+
+Currently the project has not yet a way to welcome new volunteers but the information for that will be published here.
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
