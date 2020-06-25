@@ -285,7 +285,7 @@ develop and run webapplications for visualization of geospatial datasets. There 
 - [Marble](https://marble.kde.org/): as an Open Source Virtual Globe or World Atlas application for desktop and mobile very interesting to get some programming experience with because it also uses OpenStreetMap. Build some knowledge first with Cesium for 3D maps and then it's time for Marble or programming with another virtual globe application like [Google Earth](https://www.google.com/earth/).
 - [Git](https://en.wikipedia.org/wiki/Git): for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
 
-## Project origins
+## History
 **Development**
 
 This programming course was originally created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
@@ -309,7 +309,7 @@ This project is published by the MoD-NL as an Open Source Software educational p
 The software of The GeoStack Project is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
   - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
 
-The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
+The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 **Terms of Service**
@@ -347,9 +347,9 @@ Some legal points of special interest, in short terms:
 **Contributing**
 
 Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
-- In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+- In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC BY Version 4.0) will be applicable to your contributions as well.
 
-If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you also agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you also agree that the same software and content licenses (EUPL Version 1.2 and CC BY Version 4.0) will be applicable to your contributions as well.
 
 ## Resources
 For the project we use two resources: this GitHub account and a Google account.
