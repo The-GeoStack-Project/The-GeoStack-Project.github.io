@@ -12,7 +12,7 @@ Welcome to the Open Source Geospatial Programming Course!
 - The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps [Digital Elevation Map (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model) files are used that are publicly available as [Open Content](https://en.wikipedia.org/wiki/Open_content). To learn how to program with web map servers, also some online [web map services](https://en.wikipedia.org/wiki/Web_Map_Service) are used.
 - The datasets used in the course are [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) track logs that are publicly available as Open Content. Two kinds of file formats are used: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with GPS track logs from [GPS trackers](https://en.wikipedia.org/wiki/GPS_tracking_unit) on the legs of ringed [common cranes (Grus grus)](https://en.wikipedia.org/wiki/Common_crane) from the animal tracking website [Movebank.org](https://www.movebank.org) and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files with track logs from a GPS navigation device from travelling routes in The Netherlands donated by a GitHub user as Open Content.
 
-So, go enjoy and learn things!
+So, now Go, Enjoy and… Learn things!
 
 **The repositories with software and content will be published here somewhere between June 25 and July 1, 2020.**
 
