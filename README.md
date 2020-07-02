@@ -331,16 +331,16 @@ If you refer to specific documents or videos of the project please follow these 
 **Disclaimer**
 
 You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
-- If you harm someone else or get into a dispute with someone else, we will not be involved. 
-- You understand and agree that you will indemnify, defend and hold us harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
+- If you harm someone else or get into a dispute with someone else, both we and the contributors of this project will not be involved. 
+- You understand and agree that you will indemnify, defend and hold both us and the contributers of this project harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
 
 Some legal points of special interest, in short terms:
 
 1) The software and content of The GeoStack Project is provided ”as is,” and ”as available”. 
-- We make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
+- Both we and the contributors of this project make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
 
 2) You agree that your use of The GeoStack Project software and content is your own responsibility and any use is at your own risk. 
-- You decide if the software and content is suitable for your use, but be aware that we are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
+- You decide if the software and content is suitable for your use, but be aware that nor we nor the contributers of this project are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
 
 3) Any other application or use of the software and content other than for educational purposes is not intended and not advised!
 
