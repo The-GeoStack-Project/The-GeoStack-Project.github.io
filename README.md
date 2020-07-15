@@ -12,9 +12,9 @@ Welcome to the Open Source Geospatial Programming Course!
 - The datasets used for the digital topographical maps are from [OpenStreetMap.org](https://OpenStreetMap.org) and for 3D maps [Digital Elevation Map (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model) files are used that are publicly available as [Open Content](https://en.wikipedia.org/wiki/Open_content). To learn how to program with web map servers, also some online [web map services](https://en.wikipedia.org/wiki/Web_Map_Service) are used.
 - The datasets used in the course are [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) track logs that are publicly available as Open Content. Two kinds of file formats are used: [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with GPS track logs from [GPS trackers](https://en.wikipedia.org/wiki/GPS_tracking_unit) on the legs of ringed [common cranes (Grus grus)](https://en.wikipedia.org/wiki/Common_crane) from the animal tracking website [Movebank.org](https://www.movebank.org) and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files with track logs from a GPS navigation device from travelling routes in The Netherlands donated by a GitHub user as Open Content.
 
-So, go enjoy and learn things!
+So, now Go, Enjoy and… Learn things!
 
-**The repositories with software and content will be published here somewhere between June 25 and July 1, 2020.**
+**The repositories with software and content will be published here somewhere between June 25 and July 15, 2020.**
 
 
 ## Introduction video
@@ -285,7 +285,7 @@ develop and run webapplications for visualization of geospatial datasets. There 
 - [Marble](https://marble.kde.org/): as an Open Source Virtual Globe or World Atlas application for desktop and mobile very interesting to get some programming experience with because it also uses OpenStreetMap. Build some knowledge first with Cesium for 3D maps and then it's time for Marble or programming with another virtual globe application like [Google Earth](https://www.google.com/earth/).
 - [Git](https://en.wikipedia.org/wiki/Git): for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
 
-## Project origins
+## History
 **Development**
 
 This programming course was originally created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
@@ -309,7 +309,7 @@ This project is published by the MoD-NL as an Open Source Software educational p
 The software of The GeoStack Project is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
   - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
 
-The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC-BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
+The content of The GeoStack Project is released under the [Creative Commmons Attribution License (CC BY), Version 4.0](https://creativecommons.org/licenses/by/4.0/).
   - Read the full legal license [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 **Terms of Service**
@@ -331,25 +331,25 @@ If you refer to specific documents or videos of the project please follow these 
 **Disclaimer**
 
 You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
-- If you harm someone else or get into a dispute with someone else, we will not be involved. 
-- You understand and agree that you will indemnify, defend and hold us harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
+- If you harm someone else or get into a dispute with someone else, both we and the contributors of this project will not be involved. 
+- You understand and agree that you will indemnify, defend and hold both us and the contributers of this project harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
 
 Some legal points of special interest, in short terms:
 
 1) The software and content of The GeoStack Project is provided ”as is,” and ”as available”. 
-- We make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
+- Both we and the contributors of this project make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
 
 2) You agree that your use of The GeoStack Project software and content is your own responsibility and any use is at your own risk. 
-- You decide if the software and content is suitable for your use, but be aware that we are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
+- You decide if the software and content is suitable for your use, but be aware that nor we nor the contributers of this project are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
 
 3) Any other application or use of the software and content other than for educational purposes is not intended and not advised!
 
 **Contributing**
 
 Please take special notice of the [GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service) for contributions under the repository licenses, including contributions made to The GeoStack Project software and content in any of its repositories.
-- In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+- In short terms: when you make a contribution to a repository of The GeoStack Project, you agree that the software and content licenses of The GeoStack Project (EUPL Version 1.2 and CC BY Version 4.0) will be applicable to your contributions as well.
 
-If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you also agree that the same software and content licenses (EUPL Version 1.2 and CC-BY Version 4.0) will be applicable to your contributions as well.
+If you contribute software or content to The GeoStack Project in other ways than by means of GitHub, you also agree that the same software and content licenses (EUPL Version 1.2 and CC BY Version 4.0) will be applicable to your contributions as well.
 
 ## Resources
 For the project we use two resources: this GitHub account and a Google account.
