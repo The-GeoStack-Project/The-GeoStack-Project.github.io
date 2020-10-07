@@ -17,11 +17,21 @@ So, now Go, Enjoy and… Learn things!
 **The repositories with software and content will be published here between October 1 - 15, 2020.**
 
 
-## Introduction video
-See the introduction video 'Presenting The GeoStack Project' on the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
+## Introduction videos
+
+**'Introducing The GeoStack Project'** --> Check out this 1 minute show case video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ocObtLqYRwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Tip: visit our YouTube channel for lots of additional tutorial videos and use the playlists to view them.
+
 <br/>
+
+**'Presenting The GeoStack Project'** --> Check out this 6 minute overview video!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ocObtLqYRwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+
+## GeoStack on YouTube
+Visit the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
+ - Tip: check out the 70+ overview videos and tutorial video clips by using the playlists!
 
 ## Reader's Guide
 1. Read this project's home page first!
@@ -139,20 +149,21 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 
 ## Content overview
 **Open Content Documentation**
-- 700+ illustrated pages in 11 documents: 6 Cookbooks for installation and data science and 5 Programming Manuals.
-- About the 5 Programming Manuals: ther is 1 manual for the Python Flask web application to get Crane and Route datasets from the MongoDB database and there are 4 manuals for the TypeScript/Angular web applications: 1 manual for the base web application and 3 manuals for the end-user web applications: Dataset Desboard, 2D Map Viewer and 3D Map Viewer.
+- 700+ illustrated pages in 11 documents: 6 Cookbooks for Installation and Data Science and 5 Programming Manuals.
+- About the 5 Programming Manuals: there is 1 manual for the Python Flask web application to get Crane and Route datasets from the MongoDB database and there are 4 manuals for the TypeScript/Angular web applications: 1 manual for the base web application and 3 manuals for the end-user web applications: Dataset Desboard, 2D Map Viewer and 3D Map Viewer.
 
 **Open Source Software**
-- There is Source Code in Jupyter Notebooks (Python) and script files in Python, Bash Shell installation scripts.
+- There is Source Code in Jupyter Notebooks (Python), in Python script files and in Bash Shell installation scripts.
 - Configuration files for the server software.
 - The program files for the web applications in TypeScript, HTML5 and CSS3.
+- Re-use of around 50 Open Source Software components: from text editors and web servers to geospatial software packages!
 
 **Open Content Videos**
 - 70+ introduction and overview videos and tutorial clips to visualize the documentation, server software and web applications.
 - Follow the 8 Playlists on our YouTube channel:
-  - Playlist for the 2 Short Showcase videos: Introducing The GeoStack Project (1 min) and Presenting the GeoStack Project (6 min)
-  - Playlist for a series of Overview videos.
-  - Playlists for 6 series of short Video Tutorial Clips.
+  - 1 Playlist for the 2 Short Showcase videos: Introducing The GeoStack Project (1 min) and Presenting the GeoStack Project (6 min)
+  - 1 Playlist for a series of Overview videos.
+  - 6 Playlists for the 6 series of short Video Tutorial Clips.
 
 **Open Content Datasets for topographical maps**
 - Re-use of topographical data from OpenStreetMap, OpenSeaMap and DEM (height) files for 3D Maps from the Dutch AHN dataset via PDOK.nl.
@@ -162,18 +173,21 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 - Use of 8 GPS track logs of car, bike and hike routes. 
 - Re-use of the World Port Index dataset.
 
-**Free online Topographic Content Services**
-To learn how to work with web map services The GeoStack Project uses 3 free online web map services and also their web applications for testing.
-- Notice there are limits to the number of map tiles or map views per month for these free services but it is more than enough to learn how to program.
+**Free online Topographical Content Services**
+- To learn how to work with web map services The GeoStack Project uses 4 free online web map services and also their web applications for testing.
+  - Notice there are limits to the number of map tiles or map views per month for these free services but it is more than enough to learn how to program.
 
-- 2D Maps: OSM web map service for OpenStreetMap and OpenSeaMap maps and Thunderforest to lean how to work with a service that uses an API key to access theire maps. Instructions are also added to use Thunderforest as an example of a free web map service fow which you have to register an account to get an API key to learn how to work with it.
+- 2D Maps: OSM web map service for (1) OpenStreetMap and OpenSeaMap maps and (2) Thunderforest to learn how to work with a service that uses an API key to access their maps. For Thunderforest you need to register a free account to request their API key.
 
-- 3D Maps: Cesium ION voor de 3D web map services that supply aerial maps (in TGP the Bing Arial maps are used as an example and Cesium Terrain Server met geladen DEM files, ook hier een gratis Cesium account voor de toegang. Not very accurate height profiles because of low res DEM files. 
+- 3D Maps: for height maps (3) Cesium ION is used for the 3D web map services that provide an online Cesium Terrain Server pre-loaded with DEM height files and the option to visualize both topographical maps and aerial maps.
+  - For the use of Cesium ION you need to register a free account.
+  - The DEM files used in the Cesium ION Service are low resolution so the height profiles are not very accurate. Understandable because of the costs and that's why the GeoStack course explains how to download and use these large high resolution DEM files.
+  - In the GeoStack Cesium demo web app the (4) Bing Aerial maps are used as an example but there are other map options too.
 
 **Content summary**
 - All in all, the documentation and source code totals up to more than 1.000 pages to learn from!
-- Complemented by around ### minutes of video!
-- And... with thanks for the re-use to the creators of the Open Source Software and publishers of the Open Content Datasets!
+- And... complemented by many minutes of video!
+- And... with thanks for the re-use opportunities to the creators of the Open Source Software and publishers of the Open Content Datasets!
 Enjoy!
 
 ## Environment
@@ -320,7 +334,16 @@ develop and run webapplications for visualization of geospatial datasets. There 
 - [Leaflet](https://leafletjs.com) + Python [Folium](https://github.com/python-visualization/folium): Leaflet is a comparable geospatial webapplication framework to OpenLayers for generating 2D topographical map views and Folium is the Python wrapper module for it. Once you have learned OpenLayers in this course you have a good reference to explore Leaflet/Folium in order to find out what works best for your use cases.
 - [cesiumpy](https://github.com/sinhrks/cesiumpy): a Python wrapper module for Cesium, comparable to Folium for Leaflet. Left out because it is fairly new and still a concept version (currently 0.3). Therefore the 3D Map Viewer webapplication is programmed in TypeScript with the Cesium API.
 - [Marble](https://marble.kde.org/): as an Open Source Virtual Globe or World Atlas application for desktop and mobile very interesting to get some programming experience with because it also uses OpenStreetMap. Build some knowledge first with Cesium for 3D maps and then it's time for Marble or programming with another virtual globe application like [Google Earth](https://www.google.com/earth/).
+- [GeoDjango](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/): a geographic web framework for the Python Django web content management framework. Also fairly new and although Django is fast and runs large websites with ease it does have a learning curve!
 - [Git](https://en.wikipedia.org/wiki/Git): for version management of source code. Highly recommended for larger sofware projects and when working in development teams! The Open Source webapplication GitLab can be used to run your own Version Control System webserver locally.
+- Also out of scope are:
+  - The geospatial functions of the two JSON document data stores of the No-SQL database [MongoDB](https://www.mongodb.com/) and the search engine [Elasticsearch](https://www.elastic.co/). Elasticsearch is build around and uses the geospatial functions of the [Lucene](https://lucene.apache.org/) core search engine.
+  - Beginner documentation and programming tutorials on how to program with the [Geopackage](http://www.geopackage.org/) and [GeoJSON](https://geojson.org/) file formats.
+  - The creation of geospatial web applications for mobile devices with a focus on using the Geopackage file format.
+
+**Scope Note**: software, installation and programming mannuals for the left-out-of-scope software and file formats mentioned above could be easily added to The GeoStack Project if volunteers would be willing to make them! 
+- The document templates and original text editing files of the current GeoStack documentation are available in the repository GeoStack-Project-Files as ready-to-go templates for a quick start!
+- Create an Issue on [this project's Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'PEP' (Project Enhancement Proposal) if you want to contribute!
 
 ## History
 **Development**
