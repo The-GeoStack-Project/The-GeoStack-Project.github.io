@@ -16,8 +16,8 @@ So, now Go, Enjoy and… Learn things!
 
 ## Latest News
 **The repositories with software and content will be published here between October 1 - 15, 2020.**
-- For older news visit the project's [News] page! 
-- Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) pages!
+- For older news visit the project's [News](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News) page! 
+- Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
 
 ## Introduction videos
 
