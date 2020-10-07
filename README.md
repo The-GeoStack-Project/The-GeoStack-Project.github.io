@@ -84,6 +84,10 @@ Don't worry if it takes you a little longer because you will get there with the 
 
 
 If you are on the other hand a real beginner in programming, you might want to invest some extra well spent study time first as a newbie to get to the required skill levels to follow this course as per the advice below in the section 'Skill levels'!
+- Assume 1 - 3 days for the workshop x 8 hours = 8 - 24 hours
+- Assume 10 - 30 days for the course x 8 hours = 80 - 240 hours
+- Assume 5 - 20 days to build extra skill levels = 40 - 160 hours
+- Study time range = 128 - 424 hours, so let's say it's a range of 3 - 10 weeks depending on your level of expertise and skill set to start with.
 
 ## Skill levels
 1 - **Basic skills** in Python programming are a **must**!
@@ -98,7 +102,8 @@ If you are on the other hand a real beginner in programming, you might want to i
 
 
 3 - **Some knowledge** of Virtual Box, Ubuntu Linux, MongoDB, Docker, OpenLayers and Cesium comes in handy of course!
-- Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
+- Advice 1: take 2 days to properly read up on these topics on their wikipages on Wikipedia and on their project websites!
+- Advice 2: take 3 days to experiment and get some hands on experience that will serve you well later!
 - The course manuals en example source code files will guide you to get the software up and running!
 
 ## Course overview
