@@ -137,7 +137,44 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 7. Manual-Creating-an-2-Dimensional-Map-Viewer
 8. Manual-Creating-an-3-Dimensional-Map-Viewer
 
+## Content overview
+**Open Content Documentation**
+- 700+ illustrated pages in 11 documents: 6 Cookbooks for installation and data science and 5 Programming Manuals.
+- About the 5 Programming Manuals: ther is 1 manual for the Python Flask web application to get Crane and Route datasets from the MongoDB database and there are 4 manuals for the TypeScript/Angular web applications: 1 manual for the base web application and 3 manuals for the end-user web applications: Dataset Desboard, 2D Map Viewer and 3D Map Viewer.
 
+**Open Source Software**
+- There is Source Code in Jupyter Notebooks (Python) and script files in Python, Bash Shell installation scripts.
+- Configuration files for the server software.
+- The program files for the web applications in TypeScript, HTML5 and CSS3.
+
+**Open Content Videos**
+- 70+ introduction and overview videos and tutorial clips to visualize the documentation, server software and web applications.
+- Follow the 8 Playlists on our YouTube channel:
+  - Playlist for the 2 Short Showcase videos: Introducing The GeoStack Project (1 min) and Presenting the GeoStack Project (6 min)
+  - Playlist for a series of Overview videos.
+  - Playlists for 6 series of short Video Tutorial Clips.
+
+**Open Content Datasets for topographical maps**
+- Re-use of topographical data from OpenStreetMap, OpenSeaMap and DEM (height) files for 3D Maps from the Dutch AHN dataset via PDOK.nl.
+
+**Open Content Datasets for map plotting**
+- Re-use of GPS track logs of ringed common cranes (Grus grus) from MoveBank. 
+- Use of 8 GPS track logs of car, bike and hike routes. 
+- Re-use of the World Port Index dataset.
+
+**Free online Topographic Content Services**
+To learn how to work with web map services The GeoStack Project uses 3 free online web map services and also their web applications for testing.
+- Notice there are limits to the number of map tiles or map views per month for these free services but it is more than enough to learn how to program.
+
+- 2D Maps: OSM web map service for OpenStreetMap and OpenSeaMap maps and Thunderforest to lean how to work with a service that uses an API key to access theire maps. Instructions are also added to use Thunderforest as an example of a free web map service fow which you have to register an account to get an API key to learn how to work with it.
+
+- 3D Maps: Cesium ION voor de 3D web map services that supply aerial maps (in TGP the Bing Arial maps are used as an example and Cesium Terrain Server met geladen DEM files, ook hier een gratis Cesium account voor de toegang. Not very accurate height profiles because of low res DEM files. 
+
+**Content summary**
+- All in all, the documentation and source code totals up to more than 1.000 pages to learn from!
+- Complemented by around ### minutes of video!
+- And... with thanks for the re-use to the creators of the Open Source Software and publishers of the Open Content Datasets!
+Enjoy!
 
 ## Environment
 The Development Environment in this course will learn you about the following subjects:
@@ -390,12 +427,13 @@ Overview GitHub Repositories - The project has 5 repositories and for two reposi
 The project uses two main services:
 
 1) YouTube Channel
-- Go to the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g) to see the introduction video, overview videos and video tutorial clips.
-- Videos were created using the [ShotCut video editor](http://shotcut.org/) and are published in the [WebM](https://en.wikipedia.org/wiki/WebM) or [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) file formats.
+- Go to the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g) to see the videos.
+- Videos were created using the [ShotCut video editor](http://shotcut.org/) and are published in the [WebM](https://en.wikipedia.org/wiki/WebM) file format.
 
-2) Drive: for backup of the project
-- Backup the video source files.
-- Backup the GitHub repos.
+2) Drive: non-public cloud drive for backup of the project and project team cooperation.
+- Backup of the video source files.
+- Backup of the GitHub repos and other files.
+- File share for the project team.
 
 ## Participation
 **Contact**
@@ -418,7 +456,7 @@ Currently we are not accepting pull requests from GitHub users other than the cu
 
 The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises.
 
-New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will need to be archived then.
+New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will then need to be either archived or removed.
 - If volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
 
 Currently the project has not yet a way to welcome new volunteers but the information for that will be published here.
