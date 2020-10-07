@@ -366,7 +366,7 @@ The motivation to create this course is to collect and combine all the very much
 <div align="center"> <code> <b>-----> 'Working Software at the End of the Day!' <-----</b> </code> </div>
 <br/>
 
-## Legal Stuff
+## Legal information
 **Licenses and Copyrights**
 
 This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use. 
