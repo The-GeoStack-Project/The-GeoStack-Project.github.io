@@ -330,19 +330,28 @@ If you refer to specific documents or videos of the project please follow these 
 
 **Disclaimer**
 
-You are responsible for your use of the software and content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
-- If you harm someone else or get into a dispute with someone else, both we and the contributors of this project will not be involved. 
-- You understand and agree that you will indemnify, defend and hold both us and the contributers of this project harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content.
+The GeoStack Project consists of Software and Content. Software means source code files, configuration files, Python scripts, Jupyter Notebooks, shell scripts, web applications etc. Content means installation manuals, programming manuals, other documentation such as the project's files and web pages on GitHub, datasets, images, photos, videos, audio, the project's logo: the blue GeoStack compass etc.
 
-Some legal points of special interest, in short terms:
+You are responsible for your use of the Software and Content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
 
-1) The software and content of The GeoStack Project is provided ”as is,” and ”as available”. 
-- Both we and the contributors of this project make no promises or guaranties that the software and content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the software and content will be maintained.
+If you harm someone else or get into a dispute with someone else, both we (The GeoStack Projects and its members) and the contributors of this project will not be involved. 
 
-2) You agree that your use of The GeoStack Project software and content is your own responsibility and any use is at your own risk. 
-- You decide if the software and content is suitable for your use, but be aware that nor we nor the contributers of this project are in no way responsible or liable for damages or losses arising from your use or inability to use the software or content of The GeoStack Project.
+You understand and agree that you will indemnify, defend and hold both us (The GeoStack Project and its members) and the contributers of this project harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the software and content. 
 
-3) Any other application or use of the software and content other than for educational purposes is not intended and not advised!
+Both we (The GeoStack Project and its members) and the contributors of this project expressly disclaim any warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to the Software and Content.
+
+
+The Software and Content of The GeoStack Project is provided ”as is,” and ”as available”.
+- Both we and the contributors of this project make no promises or guaranties that the Software and Content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the Software and Content will be maintained.
+
+You agree that your use of The GeoStack Project Software and Content is your own responsibility and any use is at your own risk, and you assume the entire risk as to implementing or otherwise using the Software and Content.
+
+You decide if the Software and Content is suitable for your use, but be aware that nor we nor the contributers of this project are in any way responsible or liable for damages or losses arising from your use or inability to use the Software and Content of The GeoStack Project.
+
+Any other application or use of the Software and Content other than for educational purposes is not intended and not advised!
+
+
+THE GEOSTACK PROJECT, ITS MEMBERS, OR CONTRIBUTORS ARE IN NO EVENT LIABLE TO ANY PARTY FOR LOST PROFITS OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THE GEOSTACK PROJECT SOFTWARE OR CONTENT DELIVERABLE OR ITS GOVERNING AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 **Contributing**
 
