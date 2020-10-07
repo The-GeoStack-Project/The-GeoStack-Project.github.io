@@ -467,6 +467,7 @@ The project uses two main services:
 ## Participation
 
 **Support** --> Reporting Bugs and Providing Suggestions with tickets only!
+
 The project team is only accepting tickets in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) but with no promises to response times or realisation!
 - Read this wiki page '[Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/Issue-Tracker)' first!
 - Please use the proper labels as described on the wiki page to tag the ticket for your issue accordingly! 
@@ -476,7 +477,7 @@ The project team is only accepting tickets in the [Issue Tracker](https://github
 **Contact**
 
 Use the Issue Tracker to post a Ticket with the label 'CON' for 'Contact' if you want to request a personal conversation with one of the team members.
-- A free one-on-one secured [JITSI meeting](https://meet.jit.si/) for a good quality voice call with the option to use the webcam too.
+- A free one-on-one secured [JITSI meeting](https://meet.jit.si/) is an option for both a good quality voice call and the option to use the webcam too.
 
 **Pull requests**
 
