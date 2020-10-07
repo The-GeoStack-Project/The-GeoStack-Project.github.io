@@ -330,7 +330,11 @@ If you refer to specific documents or videos of the project please follow these 
 
 **Disclaimer**
 
-The GeoStack Project consists of Software and Content. Software means source code files, configuration files, Python scripts, Jupyter Notebooks, shell scripts, web applications etc. Content means installation manuals, programming manuals, other documentation such as the project's files and web pages on GitHub, datasets, images, photos, videos, audio, the project's logo: the blue GeoStack compass etc.
+The GeoStack Project consists of Software and Content. 
+
+Software means source code files, configuration files, Python scripts, Jupyter Notebooks, shell scripts, web applications etc. 
+
+Content means installation manuals, programming manuals, other documentation such as the project's files and web pages on GitHub, datasets, images, photos, videos, audio, the project's logo: the blue GeoStack compass etc.
 
 You are responsible for your use of the Software and Content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
 
@@ -340,16 +344,15 @@ You understand and agree that you will indemnify, defend and hold both us (The G
 
 Both we (The GeoStack Project and its members) and the contributors of this project expressly disclaim any warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to the Software and Content.
 
-
 The Software and Content of The GeoStack Project is provided ”as is,” and ”as available”.
-- Both we and the contributors of this project make no promises or guaranties that the Software and Content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the Software and Content will be maintained.
+
+Both we (The GeoStack Project and its members) and the contributors of this project make no promises or guaranties that the Software and Content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the Software and Content will be maintained.
 
 You agree that your use of The GeoStack Project Software and Content is your own responsibility and any use is at your own risk, and you assume the entire risk as to implementing or otherwise using the Software and Content.
 
-You decide if the Software and Content is suitable for your use, but be aware that nor we nor the contributers of this project are in any way responsible or liable for damages or losses arising from your use or inability to use the Software and Content of The GeoStack Project.
+You decide if the Software and Content is suitable for your use, but be aware that nor we (The GeoStack Project and its members) nor the contributers of this project are in any way responsible or liable for damages or losses arising from your use or inability to use the Software and Content of The GeoStack Project.
 
 Any other application or use of the Software and Content other than for educational purposes is not intended and not advised!
-
 
 THE GEOSTACK PROJECT, ITS MEMBERS, OR CONTRIBUTORS ARE IN NO EVENT LIABLE TO ANY PARTY FOR LOST PROFITS OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THE GEOSTACK PROJECT SOFTWARE OR CONTENT DELIVERABLE OR ITS GOVERNING AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
