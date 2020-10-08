@@ -273,33 +273,42 @@ The Development Environment in this course will learn you about the following su
   - a 3D Map Viewer using the geospatial framework Cesium in which you can visualize the datasets on 3D maps.
 
 ## Getting started
-**Download instructions**
+**Download instructions --> GeoStack Manuals**
 1. Go to the top of the web page and click the blue button 'Download Manuals'.
-2. Save the ZIP file that contains the repository GeoStack-Manuals.
-3. Unzip the ZIP file which will give you the folder GeoStack-Manuals.
-4. In the folder you will find 2 PDF files: Creating-the-Workshop-VM.pdf and Creating-the-Course-VM.pdf.
+2. Save the ZIP file GeoStack-Manuals-master.zip that contains the repository GeoStack-Manuals.
+3. Unzip the ZIP file which will give you the folder GeoStack-Manuals-master.
+4. In this folder you will find 2 PDF files: Cookbook-Creating-the-GeoStack-Workshop-VM.pdf and Cookbook-Creating-the-GeoStack-Course-VM.pdf.
 
-**Work instructions**
-1. Start with the 1-day GeoStack Workshop by following the document Creating-the-GeoStack-Workshop-VM.pdf.
+**Work instructions --> GeoStack Workshop and Course**
+1. Start with the 1-day GeoStack Workshop by following the document Cookbook-Creating-the-GeoStack-Workshop-VM.pdf.
 - Here you will learn if you need to build some extra skills first.
-- After building the VM start the file manager Nautilus by clicking the file cabinet icon on the left in the Favorites menu.
+- After building the VM, start the file manager Nautilus by clicking the file cabinet icon on the left in the Favorites menu.
 - Then in the Home folder of the GeoStack account on the VM, go to the folder GeoStack-Workshop.
 - Follow the programming assignments in the file Cookbook-Workshop-Assignments.pdf.
-2. Work through the full 10-day GeoStack Course by following the document Creating-the-GeoStack-Course-VM.pdf.
+2. Work through the full 10-day GeoStack Course by following the document Cookbook-Creating-the-GeoStack-Course-VM.pdf.
 - There are two ways of building the Course VM:
-  - 1 - Automatic installation by using the supplied set of installation scripts.
-  - 2 - Manual installation by working your way through the large set of 8 detailed course cookbooks and manuals.
+  - 1 - Automatic installation by using the supplied set of installation scripts as explained in chapter 4.
+  - 2 - Manual installation by working your way through the large set of 8 detailed course cookbooks and manuals as explained in chapter 5.
 
-Advice: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the web applications!
+Advice GeoStack Course: first build the Course VM the easy way with the installation scripts to explore and then do it the hard way by really learning some serious Systems & Network Management in building the GeoStack and programming the web applications!
 
 Note: in the manuals on how to create the VM's you will find detailed instructions about:
 1. cloning the git repositories GeoStack-Workshop and GeoStack-Course;
-2. the download instructions for the GPS track log datasets;
-3. the instructions to export, download and import the map and terrain elevation datasets required for visualizing digital topographical maps in OpenLayers and Cesium.
+2. creating the Virtual Machines and installing Ubuntu Linux and all the GeoStack software you need;
+3. the download instructions for the GPS track log datasets;
+4. the instructions to export, download and import the map and terrain elevation datasets required for visualizing digital topographical maps in OpenLayers and Cesium.
+
+**Download instructions --> GeoStack Project Files**
+1. Go to the top of the web page and click the blue button 'Project Files'.
+2. Save the ZIP file GeoStack-Project-Files-master.zip that contains the repository GeoStack-Project-Files.
+3. Unzip the ZIP file which will give you the folder GeoStack-Project-Files-master.
+4. In this folder you will find the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the GeoStack logo etc. 
+- Just in case you want to re-use content from the original files instead of the more tedious corrections required after a Copy & Paste and from the PDF files.
+- Tip: if you unzip an ODT file you find all the images of the document in the folder Pictures.
+
 
 ## Programming tips
 **Lowering the Learning Curve**
-
 
 1) First of all: read the weblinks on this web page! They paint the picture! Then read the cookbooks, manuals etc. 
 - There is a lot of documentation to explain what, why and how things work. Don't be smart, read it first! 
@@ -412,7 +421,7 @@ Both we (The GeoStack Project and its members) and the contributors of this proj
 
 The Software and Content of The GeoStack Project is provided ”as is,” and ”as available”.
 
-Both we (The GeoStack Project and its members) and the contributors of this project make no promises or guaranties that the Software and Content will be available, useable, error-free, meet your requirements, that any defects will be corrected and that the Software and Content will be maintained.
+Both we (The GeoStack Project and its members) and the contributors of this project make no promises or guaranties that the Software and Content will be available, useable, error-free, meet your requirements, that any defects will be corrected or that the Software and Content will be maintained.
 
 You agree that your use of The GeoStack Project Software and Content is your own responsibility and any use is at your own risk, and you assume the entire risk as to implementing or otherwise using the Software and Content.
 
@@ -438,9 +447,9 @@ Click the blue buttons at the top of this webpage to view the project's public r
 
 Overview GitHub Repositories - The project has 5 repositories and for two repositories there is a convenient blue download button at the top of this webpage.
 
-1) GeoStack-Manuals: the blue download button offers a ZIP file download of the GeoStack-Manuals repository with the two manuals to start building the Virtual Machines for the Workshop and the Course.
+1) GeoStack-Manuals: the blue button 'Download Manuals' offers a ZIP file download of the GeoStack-Manuals repository with the two manuals to start building the Virtual Machines for the Workshop and the Course. The ZIP file to download will be GeoStack-Manuals-master.zip.
 
-2) GeoStack-Project-Files: the blue download button offers a ZIP file download of the GeoStack-Project-Files repository with the text editor source documents, document images, document cover design and project logo for all the PDF files of the workshop and course. Just to save you a lot of time in case you want to re-use content! 
+2) GeoStack-Project-Files: the blue button 'Project Files' offers a ZIP file download of the GeoStack-Project-Files repository with the text editor source documents, document images, document cover design, the GeoStack project logo etc. for all the PDF files of the workshop and course. Just to save you a lot of time in case you want to re-use Open Content! The ZIP file to download will be GeoStack-Project-Files-master.zip.
 
 - Text editing was done with [LibreOffice Writer](https://www.libreoffice.org/) and the document files are in the [Open Document Text (ODT)](https://en.wikipedia.org/wiki/OpenDocument) file format.
 - Image processing was done with [GIMP](https://www.gimp.org/).
@@ -476,21 +485,22 @@ The project team is only accepting tickets in the [Issue Tracker](https://github
 
 **Contact**
 
-Use the Issue Tracker to post a Ticket with the label 'CON' for 'Contact' if you want to request a personal conversation with one of the team members.
+Use the Issue Tracker to post a Ticket with the label 'Contact' if you want to request a personal conversation with one of the team members and also include information on the subject you want to talk about.
 - A free one-on-one secured [JITSI meeting](https://meet.jit.si/) is an option for both a good quality voice call and the option to use the webcam too.
+- The name of the meeting room can be published in the ticket to avoid public exposure of personal contact information in a 'Contact' ticket.
 
 **Pull requests**
 
 Currently we are not accepting pull requests from GitHub users other than the current team members.
-- If you want to contribute to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'PEP' for 'Project Enhancement Proposal' or 'CON' for 'Contact' depending on what you would want to contribute.
+- If you want to contribute to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'PEP' for 'Project Enhancement Proposal' or 'Contact' depending on what you would want to contribute.
 
 **New Team Members**
 
 The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises.
 
-New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months and without maintenance the project will then need to be either archived or removed.
+New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months. Without maintenance the project will then need to be either archived or removed.
 - If volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
-- If you want to contribute some serious time to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'CON' for 'Contact'.
+- So if you want to contribute some serious time to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'Contact' and the information on what you would like to contribute.
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
