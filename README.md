@@ -15,7 +15,8 @@ Welcome to the Open Source Geospatial Programming Course!
 So, now Go, Enjoy and… Learn things!
 
 ## Latest News
-**The repositories with software and content will be published here between October 1 - 15, 2020.**
+**The repositories with software and content will be published here between October 10 - 15, 2020.**
+**--> DO NOT DOWNLOAD before October 15! We're still uploading and changing software and content!**
 - For older news visit the project's [News](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News) page! 
 - Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
 
