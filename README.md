@@ -492,11 +492,11 @@ Use the Issue Tracker to post a Ticket with the label 'Contact' if you want to r
 **Pull requests**
 
 Currently we are not accepting pull requests from GitHub users other than the current team members.
-- If you want to contribute to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'PEP' for 'Project Enhancement Proposal' or 'Contact' depending on what you would want to contribute.
+- If you want to contribute to The GeoStack Project then post a ticket in the [Issue Tracker](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/issues) with the label 'Request' or 'Contact' depending on what is suitable for you to communicate about what you would like to contribute.
 
 **New Team Members**
 
-The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises.
+The project is currently published as-is with a project team of only a few volunteers for very, very low maintenance without making any promises!
 
 New team members are needed to make this project an active Open Source project because, with around 50 software and content components that will be updated over time, the project is expected to have a limited shelf life of around 12 months. Without maintenance the project will then need to be either archived or removed.
 - If volunteers are willing to participate in project maintenance and creating new course materials this project could become an active Open Source project.
