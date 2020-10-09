@@ -371,6 +371,7 @@ This programming course was originally created by computer science student [Piet
   - The internship was offered by the ICT innovation department of the Netherlands Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
   - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
   - After his internship Pieter continued to contribute to this project as a volunteer software developer.
+  - The first release of The GeoStack Project was published here on GitHub as Version 1.0 on Friday, October 9, 2020. 
 
 **Motivation**
 
