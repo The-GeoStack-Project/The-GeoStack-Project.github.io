@@ -305,7 +305,7 @@ Note: in the manuals on how to create the VM's you will find detailed instructio
 1. Go to the top of the web page and click the blue button 'Project Files'.
 2. Save the ZIP file GeoStack-Project-Files-master.zip that contains the repository GeoStack-Project-Files.
 3. Unzip the ZIP file which will give you the folder GeoStack-Project-Files-master.
-4. In this folder you will find the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the GeoStack logo etc. 
+4. In this folder you will find the subfolder GeoStack-Document-Files with the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the GeoStack logo etc. 
 - Just in case you want to re-use content from the original files instead of the more tedious corrections required after a Copy & Paste and from the PDF files.
 - Tip: if you unzip an ODT file you find all the images of the document in the folder Pictures.
 
