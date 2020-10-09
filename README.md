@@ -23,7 +23,7 @@ So, now Go, Enjoy and… Learn things!
 - Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
 
 ## Introduction videos
-- Tip: the videos are best viewed in Full Screen mode!
+- Tip: the videos are best viewed in Full Screen mode and with Settings at 1080p Full HD!
 
 **'Introducing The GeoStack Project'** --> Check out this 1 minute show case video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KkFlhgWLVZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
