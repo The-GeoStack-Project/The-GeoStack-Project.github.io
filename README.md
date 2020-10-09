@@ -23,15 +23,14 @@ So, now Go, Enjoy and… Learn things!
 - Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
 
 ## Introduction videos
+- Tip: best viewed in Full Screen mode!
 
 **'Introducing The GeoStack Project'** --> Check out this 1 minute show case video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KkFlhgWLVZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br/>
 
 **'Presenting The GeoStack Project'** --> Check out this 6 minute overview video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kukuD3WwbIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br/>
 
 ## GeoStack on YouTube
