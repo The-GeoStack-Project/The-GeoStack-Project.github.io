@@ -278,7 +278,7 @@ The Development Environment in this course will learn you about the following su
 ## Getting started
 **Download instructions --> GeoStack Manuals**
 1. Go to the top of the web page and click the blue button 'Download Manuals'.
-2. Save the ZIP file GeoStack-Manuals-master.zip that contains the repository GeoStack-Manuals.
+2. Save the small ZIP file GeoStack-Manuals-master.zip of 10 MB that contains the repository GeoStack-Manuals.
 3. Unzip the ZIP file which will give you the folder GeoStack-Manuals-master.
 4. In this folder you will find 2 PDF files: Cookbook-Creating-the-GeoStack-Workshop-VM.pdf and Cookbook-Creating-the-GeoStack-Course-VM.pdf.
 
@@ -303,8 +303,7 @@ Note: in the manuals on how to create the VM's you will find detailed instructio
 
 **Download instructions --> GeoStack Project Files**
 1. Go to the top of the web page and click the blue button 'Project Files'.
-2. Now wait a minute until the download window pops up because a large 570 MB ZIP file has to be created with all the project files!
-2. Save the ZIP file GeoStack-Project-Files-master.zip that contains the repository GeoStack-Project-Files.
+2. Save the large ZIP file GeoStack-Project-Files-master.zip of 570 MB (!) that contains the repository GeoStack-Project-Files.
 3. Unzip the ZIP file which will give you the folder GeoStack-Project-Files-master.
 4. In this folder you will find the subfolder GeoStack-Document-Files with the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the blue GeoStack 'Clock-Compass' logo etc. 
 - The project files are provided for easy re-use content of Open Content.
