@@ -303,10 +303,12 @@ Note: in the manuals on how to create the VM's you will find detailed instructio
 
 **Download instructions --> GeoStack Project Files**
 1. Go to the top of the web page and click the blue button 'Project Files'.
+2. Now wait a minute until the download window pops up because a large 570 MB ZIP file has to be created with all the project files!
 2. Save the ZIP file GeoStack-Project-Files-master.zip that contains the repository GeoStack-Project-Files.
 3. Unzip the ZIP file which will give you the folder GeoStack-Project-Files-master.
-4. In this folder you will find the subfolder GeoStack-Document-Files with the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the GeoStack logo etc. 
-- Just in case you want to re-use content from the original files instead of the more tedious corrections required after a Copy & Paste and from the PDF files.
+4. In this folder you will find the subfolder GeoStack-Document-Files with the original ODT text editor files created with LibreOffice Writer as well as the document covers, diagram.net images, photos, the blue GeoStack 'Clock-Compass' logo etc. 
+- The project files are provided for easy re-use content of Open Content.
+- Tip: if you want to copy a lot of source code then use the original ODT files because indentations get lost in a Copy & Paste from PDF files!
 - Tip: if you unzip an ODT file you find all the images of the document in the folder Pictures.
 
 
@@ -411,9 +413,9 @@ If you refer to specific documents or videos of the project please follow these 
 
 The GeoStack Project consists of Software and Content. 
 
-Software means source code files, configuration files, Python scripts, Jupyter Notebooks, shell scripts, web applications etc. 
+Software means source code files, configuration files, Python scripts, Jupyter Notebooks, shell scripts, files for the web applications etc. 
 
-Content means installation manuals, programming manuals, other documentation such as the project's files and web pages on GitHub, datasets, images, photos, videos, audio, the project's logo: the blue GeoStack compass etc.
+Content means installation manuals and programming manuals, other documentation such as the files and web pages of the project on GitHub and Google Services such as Google Drive and the YouTube Channel and other content such as datasets, images, photos, videos, audio, the blue GeoStack 'Clock-Compass' logo etc.
 
 You are responsible for your use of the Software and Content of The GeoStack Project and any datasets, software and online services from third parties used in The GeoStack Project. 
 
