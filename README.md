@@ -33,7 +33,7 @@ So, now Go, Enjoy and… Learn things!
 
 ## GeoStack on YouTube
 Visit the project's [YouTube Channel - The GeoStack Project](https://www.youtube.com/channel/UCiZEImhO8r-LMAWh-KQiH6g).
- - Tip: check out the 70+ overview videos and tutorial video clips by using the playlists!
+ - Tip: check out the 76 introduction, overview and tutorial videos by using the playlists! Quick study in 90 minutes!
 
 ## Reader's Guide
 1. Read this project's home page first!
@@ -89,6 +89,8 @@ If you are on the other hand a real beginner in programming, you might want to i
 - Assume 10 - 30 days for the course x 8 hours = 80 - 240 hours
 - Assume 5 - 20 days to build extra skill levels = 40 - 160 hours
 - Study time range = 128 - 424 hours, so let's say it's a range of 3 - 10 weeks depending on your level of expertise and skill set to start with.
+
+TIP: watch the videos first to check your skill level and reduce study time!
 
 ## Skill levels
 1 - **Basic skills** in Python programming are a **must**!
@@ -166,8 +168,8 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 - Re-use of around 50 Open Source Software components: from text editors and web servers to geospatial software packages!
 
 **Open Content Videos**
-- 70+ introduction and overview videos and tutorial clips to visualize the documentation, server software and web applications.
-- Follow the 8 Playlists on our YouTube channel:
+- 76 introduction videos, overview videos and tutorial clips to visualize the documentation, server software and web applications.
+- Follow the 8 Playlists on our YouTube channel, totalling to almost 90 minutes of video:
   - 1 Playlist for the 2 Short Showcase videos: Introducing The GeoStack Project (1 min) and Presenting the GeoStack Project (6 min)
   - 1 Playlist for a series of Overview videos.
   - 6 Playlists for the 6 series of short Video Tutorial Clips.
