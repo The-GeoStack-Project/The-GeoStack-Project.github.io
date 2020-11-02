@@ -19,6 +19,7 @@ So, now Go, Enjoy and… Learn things!
 
 - For older news visit the project's [News](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News) page! 
 - Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
+- Important note: Before downloading and installation always check the Wiki Page: [Know Issues](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/Known-issues)!
 
 ## Introduction videos
 - Tip: the videos are best viewed in Full Screen mode and with Settings at 1080p Full HD!
