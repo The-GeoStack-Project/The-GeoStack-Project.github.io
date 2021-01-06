@@ -160,7 +160,7 @@ The full GeoStack Course is documented in the following set of detailed Cookbook
 ## Content overview
 **Open Content Documentation**
 - 700+ illustrated pages in 11 documents: 6 Cookbooks for Installation and Data Science and 5 Programming Manuals.
-- About the 5 Programming Manuals: there is 1 manual for the Python Flask web application to get Crane and Route datasets from the MongoDB database and there are 4 manuals for the TypeScript/Angular web applications: 1 manual for the base web application and 3 manuals for the end-user web applications: Dataset Desboard, 2D Map Viewer and 3D Map Viewer.
+- About the 5 Programming Manuals: there is 1 manual for the Python Flask web application to get Crane and Route datasets from the MongoDB database and there are 4 manuals for the TypeScript/Angular web applications: 1 manual for the base web application and 3 manuals for the end-user web applications: Dataset Dashboard, 2D Map Viewer and 3D Map Viewer.
 
 **Open Source Software**
 - There is Source Code in Jupyter Notebooks (Python), in Python script files and in Bash Shell installation scripts.
