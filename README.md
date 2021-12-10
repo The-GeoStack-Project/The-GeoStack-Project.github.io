@@ -368,11 +368,10 @@ develop and run webapplications for visualization of geospatial datasets. There 
 ## History
 **Development**
 
-This programming course was originally created by computer science student [Pieter Lems](https://www.linkedin.com/in/pieterlems) of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
+This programming course was originally created by computer science student of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
 
   - The internship was offered by the ICT innovation department of the Netherlands Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
-  - Read the interview in Dutch about Pieter's internship project [here](https://www.werkenvoornederland.nl/starters/stages/ict-stages/i-stage-bij-defensie).
-  - After his internship Pieter continued to contribute to this project as a volunteer software developer.
+  - After his internship the student continued to contribute to this project as a volunteer software developer.
   - The first release of The GeoStack Project was published here on GitHub as Version 1.0 on Friday, October 9, 2020. 
 
 **Motivation**
