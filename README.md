@@ -20,7 +20,7 @@ So, now Go, Enjoy and… Learn things!
 - 20220107Fr: [The GeoStack Project is being extended with a new cookbook!](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220107fri-the-geostack-project-is-being-extended-with-a-new-cookbook)
 - 20220104Tu: [The GeoStack Project Referenced by a 'Top Writer' on the Famous Learning Platform 'Medium'!](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220107fri-the-geostack-project-referenced-by-a-top-writer-on-the-famous-learning-platform-medium)
 - 20220104Tu: [Learning tip - An Awesome Roadmap for Geospatial DevOps!](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220104tu-learning-tip---an-awesome-roadmap-for-geospatial-devops)
-- 20220103Mo: [Problem when downloading Crane Datasets from Movebank.org.](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220107fri-problem-when-downloading-crane-datasets-from-movebankorg)
+- 20220103Mo: [Problem when downloading Crane Datasets from Movebank.org.](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/Known-issues#20220103mo-problem-when-downloading-crane-datasets-from-movebankorg)
 - For older news visit the project's [News](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News) page! 
 - Also, check out the project's [Wiki](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki) and [FAQ](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/FAQ) pages!
 - Important note: before downloading and installing always check the wiki page: [Known issues](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/Known-issues)!
