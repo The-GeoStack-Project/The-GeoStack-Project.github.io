@@ -368,7 +368,7 @@ develop and run webapplications for visualization of geospatial datasets. There 
 ## History
 **Development**
 
-This programming course was originally created by computer science student of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
+This programming course was originally created by computer science student Pieter of the Rotterdam University of Applied Science (Hogeschool Rotterdam) as the result of his 3rd year Bachelor internship assignment (201909-202001) in practical programming for data scientists.
 
   - The internship was offered by the ICT innovation department of the Netherlands Ministry of Defense (MoD-NL/DMO/JIVC/KIXS).
   - After his internship the student continued to contribute to this project as a volunteer software developer.
@@ -384,7 +384,7 @@ The motivation to create this course is to collect and combine all the very much
 **Licenses and Copyrights**
 
 This project is published by the MoD-NL as an Open Source Software educational project with Open Content for easy re-use. 
-- © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter Lems and The GeoStack Project contributors.
+- © Copyright 2019 - 2020, Netherlands Ministry of Defence and Pieter and The GeoStack Project contributors.
 
 The software of The GeoStack Project is released under the [European Union Public License (EUPL), Version 1.2](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
   - More information on the EUPL can be found in the FAQ on [EUPL.eu](https://eupl.eu/), in the [EUPL pre-amble text (PDF)](https://ec.europa.eu/idabc/servlets/Doca59b.pdf?id=30149) and on [this EUPL wikipage on Wikipedia](https://en.wikipedia.org/wiki/European_Union_Public_Licence).
