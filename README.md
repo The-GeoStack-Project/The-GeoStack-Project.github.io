@@ -16,7 +16,7 @@ So, now Go, Enjoy and… Learn things!
 
 ## Latest News
 
-- 20240909Mo: [Datasets of Swedish Cranes and Crane Lita added to Course-Datasets.]([https://github.com/The-GeoStack-Project/GeoStack-Course/tree/master/Course-Datasets](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20240909Mo-Datasets-of-Swedish-Cranes-and-Crane-Lita-added-to-Course-Datasets))
+- 20240909Mo: [Datasets of Swedish Cranes and Crane Lita added to Course-Datasets.](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20240909Mo-Datasets-of-Swedish-Cranes-and-Crane-Lita-added-to-Course-Datasets)
 - 20220104Tu: [The GeoStack Project Referenced by a 'Top Writer' on the Famous Learning Platform 'Medium'!](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220107fri-the-geostack-project-referenced-by-a-top-writer-on-the-famous-learning-platform-medium)
 - 20220104Tu: [Learning tip - An Awesome Roadmap for Geospatial DevOps!](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/News#20220104tu-learning-tip---an-awesome-roadmap-for-geospatial-devops)
 - 20220103Mo: [Problem when downloading Crane Datasets from Movebank.org.](https://github.com/The-GeoStack-Project/The-GeoStack-Project.github.io/wiki/Known-issues#20220103mo-problem-when-downloading-crane-datasets-from-movebankorg)
